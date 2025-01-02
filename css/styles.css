@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Container for Main Content */
+.container {
+    max-width: 1100px; /* Sets a maximum width for content */
+    margin: 0 auto;    /* Centers the content horizontally */
+    padding: 0 10px;   /* Adds padding on left and right for breathing room */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-height: 50px; /* Ensures the logo height never exceeds 50px */
+    width: auto; /* Maintains the aspect ratio */
+    margin-right: 10px; /* Adds space between the logo and the brand name */
+    display: block; /* Ensures image behaves like a block to avoid spacing issues */
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff; /* Matches the current white text of the navigation */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover, 
+.nav-links li a.active {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #005f73;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #0a9396;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #94d2bd;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.feature h2 {
+    margin-bottom: 15px;
+    color: #005f73;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #94d2bd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Spacing for Specific Sections */
+.services-content, .about-content, .contact-content {
+    padding: 20px 0; /* Adds vertical spacing for breathing room */
+}

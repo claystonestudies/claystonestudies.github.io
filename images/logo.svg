@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.292;stroke-dasharray:none;stroke-opacity:1"
+       id="path9"
+       cx="50"
+       cy="50"
+       r="47.644371" />
+    <text
+       xml:space="preserve"
+       style="font-size:63.5px;line-height:37.875px;font-family:'Noto Sans Mandaic';-inkscape-font-specification:'Noto Sans Mandaic';text-align:start;letter-spacing:-7.37129px;word-spacing:-0.700741px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.370761"
+       x="10.26476"
+       y="71.021973"
+       id="text1"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.5px;line-height:37.875px;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:-7.37129px;word-spacing:-0.700741px;stroke-width:0.370761"
+         x="10.26476"
+         y="71.021973"
+         id="tspan3"
+         dx="-2.4522839">CT</tspan></text>
+  </g>
+</svg>
