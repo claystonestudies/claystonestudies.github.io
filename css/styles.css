@@ -12,6 +12,10 @@ body {
     background-color: #f4f4f9;
 }
 
+p {
+    margin-bottom: 20px; /* Adds spacing between paragraphs */
+}
+
 /* Container for Main Content */
 .container {
     max-width: 1100px; /* Sets a maximum width for content */
