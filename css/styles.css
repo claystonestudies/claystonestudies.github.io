@@ -16,6 +16,11 @@ p {
     margin-bottom: 20px; /* Adds spacing between paragraphs */
 }
 
+/* Styling for numbered paragraphs */
+.numbered {
+    margin-bottom: 0px; /* Smaller margin for numbered paragraphs */
+}
+
 /* Container for Main Content */
 .container {
     max-width: 1100px; /* Sets a maximum width for content */
