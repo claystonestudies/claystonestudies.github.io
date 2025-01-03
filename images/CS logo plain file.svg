@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.26854;stroke-dasharray:none;stroke-opacity:1"
+       id="path9"
+       cx="50"
+       cy="50"
+       rx="47.656094"
+       ry="46.95623" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.2707px;line-height:40.1242px;font-family:Georgia;-inkscape-font-specification:Georgia;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#101010;fill-opacity:1;stroke:#000000;stroke-width:3.30393"
+       x="4.8224249"
+       y="74.230476"
+       id="text2"
+       transform="scale(1.0036239,0.99638914)"><tspan
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.2707px;line-height:40.1242px;font-family:Didot;-inkscape-font-specification:Didot;fill:#010101;fill-opacity:1;stroke:none;stroke-width:3.30393;stroke-opacity:1"
+         x="4.8224249"
+         y="74.230476">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.4099px;line-height:43.1892px;font-family:Georgia;-inkscape-font-specification:Georgia;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#101010;fill-opacity:1;stroke:#000000;stroke-width:3.57756"
+       x="40.311623"
+       y="80.65078"
+       id="text2-2"
+       transform="scale(1.0904261,0.9170727)"><tspan
+         id="tspan2-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.4099px;line-height:43.1892px;font-family:Didot;-inkscape-font-specification:Didot;fill:#010101;fill-opacity:1;stroke:none;stroke-width:3.57756;stroke-opacity:1"
+         x="40.311623"
+         y="80.65078">S</tspan></text>
+  </g>
+</svg>
