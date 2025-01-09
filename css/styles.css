@@ -18,7 +18,7 @@ p {
 
 /* Styling for numbered paragraphs */
 .numbered {
-    margin-bottom: 0px; /* Smaller margin for numbered paragraphs */
+    margin-bottom: 30px; /* Smaller margin for numbered paragraphs */
 }
 
 /* Container for Main Content */
