@@ -152,6 +152,22 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    padding-right: 20px; /* Add padding between icons and right edge */
+    margin-top: 10px; /* Add space above the icons */
+    align-items: center; /* Vertically aligns the icons to the same level as the footer text */
+}
+
+.social-icon {
+    width: 15px;  /* Smaller icon size */
+    height: 15px;
+    margin: 0 12px; /* Space between icons */
+    transition: transform 0.3s ease;
+}
+
 /* Additional Spacing for Specific Sections */
 .services-content, .about-content, .contact-content {
     padding: 20px 0; /* Adds vertical spacing for breathing room */

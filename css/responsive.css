@@ -11,7 +11,7 @@
 /* Adjust navigation for mobile */
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* Hide menu by default on small screens */
+        display: none;
         flex-direction: column;
         background-color: #333;
         position: absolute;
@@ -37,18 +37,29 @@
         right: 20px;
     }
 
-    /* Stack feature sections vertically on mobile */
     .features {
         flex-direction: column;
         gap: 10px;
     }
 
-     /* Make portrait image responsive and left-aligned */
-     .founder-portrait {
-        float: left; /* Ensure it's left-aligned */
+    /* Make portrait image responsive and left-aligned */
+    .founder-portrait {
+        float: left;
         display: block;
-        margin: 0 15px 15px 0; /* Keep space to the right */
-        max-width: 80px; /* Slightly smaller on mobile */
+        margin: 0 15px 15px 0;
+        max-width: 80px;
+    }
+
+    /* Adjust social icons on mobile */
+.social-icons {
+    justify-content: flex-end;  /* Ensure icons stay aligned right on mobile */
+    padding-right: 15px; /* Ensure padding on the right side */
+}
+
+.social-icon {
+    width: 30px;  /* Consistent size */
+    height: 30px;
+    margin: 0 10px; /* Space between icons */
     }
 }
 
