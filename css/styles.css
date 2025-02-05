@@ -161,7 +161,9 @@ footer a:hover {
 
 .founder-portrait {
     float: left;
-    width: 100px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
     margin-right: 15px;
     border-radius: 8px;
 }
