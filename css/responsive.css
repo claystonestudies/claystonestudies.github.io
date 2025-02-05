@@ -43,11 +43,11 @@
         gap: 10px;
     }
 
-    /* Make portrait image responsive */
-    .founder-portrait {
-        float: none;
+     /* Make portrait image responsive and left-aligned */
+     .founder-portrait {
+        float: left; /* Ensure it's left-aligned */
         display: block;
-        margin: 0 auto 15px auto;
+        margin: 0 15px 15px 0; /* Keep space to the right */
         max-width: 80px; /* Slightly smaller on mobile */
     }
 }
