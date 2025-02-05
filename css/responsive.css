@@ -1,0 +1,57 @@
+/* Mobile-Friendly Adjustments */
+
+/* Ensure content scales properly on smaller screens */
+@media (max-width: 1100px) {
+    .container {
+        width: 95%;
+        padding: 0 15px;
+    }
+}
+
+/* Adjust navigation for mobile */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide menu by default on small screens */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
+
+/* Stack feature sections vertically on mobile */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Make portrait image responsive */
+@media (max-width: 600px) {
+    .founder-portrait {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+        max-width: 80px; /* Slightly smaller on mobile */
+    }
+}
