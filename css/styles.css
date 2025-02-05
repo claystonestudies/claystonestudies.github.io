@@ -156,3 +156,12 @@ footer a:hover {
 .services-content, .about-content, .contact-content {
     padding: 20px 0; /* Adds vertical spacing for breathing room */
 }
+
+/* Styling Pertaining Incidentally to the About Section */
+
+.founder-portrait {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
