@@ -183,3 +183,16 @@ footer a:hover {
     margin-right: 15px;
     border-radius: 8px;
 }
+
+.purchase-button {
+    background: #000000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
