@@ -184,6 +184,15 @@ footer a:hover {
     border-radius: 8px;
 }
 
+.founder-portrait2 {
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 .purchase-button {
     background: #000000;
     color: #ffffff;
