@@ -196,3 +196,39 @@ footer a:hover {
     font-weight: bold;
     text-align: center;
 }
+
+.text-box {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333; /* Ensures text is visible */
+}
+
+.text-box p:last-child {
+    margin-bottom: 0;
+}
+
+.text-box2 {
+    max-width: 600px;
+    margin: 0px auto ;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 10px solid #888;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333; /* Ensures text is visible */
+}
+
+.text-box2 p:last-child {
+    margin-bottom: 0;
+}
