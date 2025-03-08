@@ -177,13 +177,11 @@ footer a:hover {
 
 .founder-portrait {
     float: left;
-    width: 90px;
+    width: 100px;
     max-width: 100%;
     height: auto;
-    margin-right: 5px;
-    margin-bottom: 1px;
-    border: 1px solid black; /* Black border */
-    border-radius: 8px; /* Rounded corners */
+    margin-right: 15px;
+    border-radius: 8px;
 }
 
 .founder-portrait2 {
