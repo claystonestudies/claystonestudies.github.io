@@ -243,3 +243,16 @@ footer a:hover {
 .text-box2 p:last-child {
     margin-bottom: 0;
 }
+
+.book-cover {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.book-cover img {
+    max-width: 160px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
