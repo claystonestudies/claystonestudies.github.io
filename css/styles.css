@@ -156,7 +156,6 @@ footer a:hover {
 .social-icons {
     display: flex;
     justify-content: center; /* Align icons to the right */
-    padding-right: 20px; /* Add padding between icons and right edge */
     margin-top: 10px; /* Add space above the icons */
     align-items: center; /* Vertically aligns the icons to the same level as the footer text */
 }
