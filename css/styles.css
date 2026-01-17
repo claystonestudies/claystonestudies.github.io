@@ -249,7 +249,7 @@ footer a:hover {
 }
 
 .book-cover img {
-    max-width: 160px;
+    max-width: 100px;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 6px;
