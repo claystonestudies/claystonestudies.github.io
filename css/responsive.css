@@ -42,6 +42,22 @@
         gap: 10px;
     }
 
+    .writing-academy-hero {
+        padding: 64px 0;
+    }
+
+    .writing-academy-hero h1 {
+        font-size: 2rem;
+    }
+
+    .writing-academy-hero p {
+        font-size: 1.05rem;
+    }
+
+    .academy-card {
+        padding: 22px;
+    }
+
     /* Make portrait image responsive and left-aligned */
     .founder-portrait {
         float: left;

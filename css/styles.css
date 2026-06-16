@@ -207,6 +207,73 @@ footer a:hover {
     text-align: center;
 }
 
+.writing-academy-hero {
+    background: linear-gradient(135deg, #003f4f, #0a9396);
+    color: #ffffff;
+    padding: 86px 0;
+    text-align: center;
+}
+
+.writing-academy-hero .container {
+    max-width: 850px;
+}
+
+.academy-kicker {
+    color: #d8f3dc;
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.writing-academy-hero h1 {
+    font-size: 2.75rem;
+    line-height: 1.16;
+    margin-bottom: 22px;
+}
+
+.writing-academy-hero p {
+    font-size: 1.18rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.academy-button {
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    color: #005f73;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 12px 22px;
+    text-decoration: none;
+}
+
+.academy-button:hover {
+    background-color: #e9f7f4;
+}
+
+.writing-academy-content {
+    padding: 42px 0 56px;
+}
+
+.academy-card {
+    background: #ffffff;
+    border: 1px solid #dde3e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 760px;
+    padding: 30px;
+}
+
+.academy-card h2 {
+    color: #005f73;
+    margin-bottom: 14px;
+}
+
 .text-box {
     max-width: 600px;
     margin: 20px auto;
