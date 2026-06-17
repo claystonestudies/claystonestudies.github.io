@@ -369,6 +369,98 @@ footer a:hover {
     font-weight: 700;
 }
 
+.products-content .container {
+    max-width: 1040px;
+}
+
+.products-content > .container > p:first-of-type {
+    color: var(--soft-ink);
+    margin-bottom: 32px;
+    max-width: 620px;
+}
+
+.products-content p:not(:first-of-type),
+.products-content .product-card p {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    color: var(--soft-ink);
+    line-height: 1.68;
+    margin: 0;
+    padding: 0;
+}
+
+.product-feature-grid,
+.product-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.product-feature-grid {
+    align-items: stretch;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 22px;
+}
+
+.product-grid {
+    align-items: stretch;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.product-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.72), rgba(251, 250, 247, 0.44)),
+        rgba(237, 241, 233, 0.2);
+    border: 1px solid rgba(222, 216, 203, 0.78);
+    border-radius: 7px;
+    box-shadow:
+        0 14px 34px rgba(36, 36, 31, 0.04),
+        inset 0 1px 0 rgba(255, 255, 255, 0.72);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+}
+
+.product-card-featured {
+    background:
+        linear-gradient(145deg, rgba(237, 241, 233, 0.62), rgba(255, 255, 255, 0.52)),
+        radial-gradient(circle at 12% 8%, rgba(79, 98, 73, 0.08), rgba(79, 98, 73, 0) 14rem);
+    border-color: rgba(79, 98, 73, 0.2);
+    min-height: 245px;
+    padding: 26px;
+}
+
+.product-card b {
+    color: var(--ink);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: inherit;
+}
+
+.product-card .purchase-button {
+    align-self: flex-start;
+}
+
+.product-card-book {
+    gap: 16px;
+}
+
+.product-book-cover {
+    align-self: center;
+    border: 1px solid rgba(79, 98, 73, 0.18);
+    box-shadow: 0 12px 24px rgba(36, 36, 31, 0.07);
+    display: block;
+    height: auto;
+    max-height: 150px;
+    max-width: 96px;
+    object-fit: contain;
+    width: 38%;
+}
+
 .founder-portrait {
     border: 1px solid var(--line);
     border-radius: 4px;

@@ -149,6 +149,28 @@
         padding: 18px;
     }
 
+    .products-content > .container > p:first-of-type {
+        margin-bottom: 24px;
+    }
+
+    .product-feature-grid,
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .product-card,
+    .product-card-featured {
+        min-height: 0;
+        padding: 20px;
+    }
+
+    .product-book-cover {
+        max-height: 150px;
+        max-width: 96px;
+        width: 34%;
+    }
+
     .purchase-button,
     .academy-button {
         max-width: 100%;
