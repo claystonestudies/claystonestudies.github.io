@@ -281,6 +281,59 @@ header {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.product-section-heading {
+    max-width: 620px;
+}
+
+.product-section-heading h2 {
+    margin-bottom: 0;
+}
+
+.secondary-heading {
+    margin-top: 38px;
+}
+
+.course-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 18px;
+}
+
+.course-card {
+    background: rgba(255, 255, 255, 0.84);
+    border-color: rgba(184, 137, 66, 0.45);
+    padding: 26px;
+}
+
+.course-card h3 {
+    font-size: 1.32rem;
+}
+
+.product-secondary-grid {
+    align-items: start;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.85fr);
+    margin-top: 18px;
+}
+
+.product-card.book-product {
+    align-items: start;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 130px minmax(0, 1fr);
+}
+
+.compact-product-stack {
+    display: grid;
+    gap: 18px;
+}
+
+.compact-product {
+    box-shadow: 0 8px 20px rgba(48, 39, 30, 0.06);
+}
+
 .offering-card,
 .product-card {
     display: flex;
@@ -353,7 +406,7 @@ header {
     border: 1px solid var(--line);
     border-radius: 6px;
     box-shadow: 0 10px 22px rgba(48, 39, 30, 0.12);
-    margin-bottom: 14px;
+    margin-bottom: 0;
 }
 
 .testimonial {

@@ -89,8 +89,14 @@
 
     .intro-grid,
     .offering-grid,
-    .product-grid {
+    .product-grid,
+    .course-grid,
+    .product-secondary-grid {
         grid-template-columns: 1fr;
+    }
+
+    .product-card.book-product {
+        grid-template-columns: 96px minmax(0, 1fr);
     }
 
     .content-section,
