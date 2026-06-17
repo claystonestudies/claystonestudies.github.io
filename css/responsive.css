@@ -22,11 +22,11 @@
     }
 
     .brand-name {
-        font-size: 1.12rem;
+        font-size: 1rem;
     }
 
     .logo-img {
-        height: 42px;
+        height: 38px;
     }
 
     .nav-links {
@@ -62,16 +62,16 @@
         color: var(--paper);
         cursor: pointer;
         display: block;
-        font-size: 22px;
-        height: 42px;
+        font-size: 20px;
+        height: 38px;
         line-height: 1;
-        width: 42px;
+        width: 38px;
     }
 
     .hero,
     .page-hero,
     .writing-academy-hero {
-        padding: 54px 0 42px;
+        padding: 42px 0 34px;
     }
 
     .hero::after {
@@ -84,7 +84,7 @@
     .hero h1,
     .page-hero h1,
     .writing-academy-hero h1 {
-        font-size: 2.25rem;
+        font-size: 1.95rem;
     }
 
     .intro-grid,
@@ -98,7 +98,7 @@
     .about-content,
     .contact-content,
     .writing-academy-content {
-        padding: 38px 0 48px;
+        padding: 34px 0 42px;
     }
 
     .portrait-container {
