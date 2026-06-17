@@ -177,15 +177,19 @@ header {
 }
 
 .hero::before {
-    border: 1px solid rgba(79, 98, 73, 0.16);
-    height: calc(100% - 54px);
-    max-width: 980px;
-    top: 27px;
-    width: calc(100% - 56px);
+    background:
+        linear-gradient(135deg, rgba(224, 232, 217, 0.86), rgba(246, 248, 243, 0.72)),
+        radial-gradient(circle at 18% 18%, rgba(79, 98, 73, 0.1), rgba(79, 98, 73, 0) 16rem);
+    border: 1px solid rgba(79, 98, 73, 0.24);
+    box-shadow: 0 18px 46px rgba(36, 36, 31, 0.055);
+    height: calc(100% - 70px);
+    max-width: 880px;
+    top: 35px;
+    width: calc(100% - 64px);
 }
 
 .hero::after {
-    background: linear-gradient(90deg, transparent, rgba(79, 98, 73, 0.32), transparent);
+    background: linear-gradient(90deg, transparent, rgba(79, 98, 73, 0.28), transparent);
     height: 1px;
     max-width: 720px;
     top: 76px;
