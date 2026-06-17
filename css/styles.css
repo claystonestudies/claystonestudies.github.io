@@ -173,6 +173,12 @@ header {
     max-width: 860px;
 }
 
+.page-hero h1,
+.writing-academy-hero h1 {
+    font-size: clamp(2rem, 4.6vw, 3.45rem);
+    line-height: 1.08;
+}
+
 .hero h2,
 .hero p,
 .page-hero p,
@@ -353,6 +359,29 @@ header {
     color: var(--muted);
     margin-bottom: 28px;
     padding-left: 20px;
+}
+
+.testimonial-preview {
+    background: rgba(82, 98, 70, 0.08);
+    border: 1px solid rgba(82, 98, 70, 0.22);
+    border-radius: 8px;
+    margin: 0 0 46px;
+    padding: 28px;
+}
+
+.testimonial-preview blockquote {
+    color: var(--ink);
+    font-size: 1.35rem;
+    line-height: 1.45;
+    margin-bottom: 14px;
+}
+
+.testimonial-attribution {
+    color: var(--muted);
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 18px;
 }
 
 footer {
