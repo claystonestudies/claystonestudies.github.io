@@ -1,45 +1,61 @@
-/* Mobile-Friendly Adjustments */
-
-/* Ensure content scales properly on smaller screens */
 @media (max-width: 1100px) {
     .container {
-        width: 95%;
-        padding: 0 15px;
+        max-width: 92%;
+        padding: 0 18px;
     }
 }
 
-/* Adjust navigation for mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .navbar {
+        min-height: 68px;
+    }
+
     .nav-links {
+        -webkit-backdrop-filter: blur(16px);
+        backdrop-filter: blur(16px);
+        background: rgba(251, 250, 247, 0.93);
+        border: 1px solid rgba(222, 216, 203, 0.82);
+        border-radius: 0 0 16px 16px;
+        box-shadow: 0 18px 42px rgba(36, 36, 31, 0.08);
         display: none;
         flex-direction: column;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
+        gap: 0;
         left: 0;
+        padding: 10px 24px 14px;
+        position: absolute;
+        text-align: left;
+        top: 68px;
         width: 100%;
-        text-align: center;
     }
 
     .nav-links li {
-        padding: 10px 0;
+        border-bottom: 1px solid var(--line);
+        padding: 12px 0;
+    }
+
+    .nav-links li:last-child {
+        border-bottom: 0;
+    }
+
+    .nav-links li a.active {
+        border-bottom: 0;
     }
 
     .menu-toggle {
-        display: block;
         background: none;
-        border: none;
-        font-size: 24px;
-        color: #fff;
+        border: 1px solid rgba(222, 216, 203, 0.85);
+        border-radius: 999px;
+        color: var(--ink);
         cursor: pointer;
-        position: absolute;
-        top: 15px;
-        right: 20px;
+        display: block;
+        font-size: 25px;
+        line-height: 1;
+        padding: 5px 10px 7px;
     }
 
     .features {
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
     }
 
     .writing-academy-hero {
@@ -51,42 +67,85 @@
     }
 
     .writing-academy-hero p {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 
     .academy-card {
         padding: 22px;
     }
 
-    /* Make portrait image responsive and left-aligned */
     .founder-portrait {
-        float: left;
         display: block;
-        margin: 0 15px 15px 0;
-        max-width: 80px;
+        float: left;
+        margin: 4px 14px 10px 0;
+        max-width: 82px;
     }
 
-    /* Adjust social icons on mobile */
-.social-icons {
-    justify-content: flex-end;  /* Ensure icons stay aligned right on mobile */
-    padding-right: 15px; /* Ensure padding on the right side */
-}
+    .social-icons {
+        justify-content: center;
+        padding-right: 0;
+    }
 
-.social-icon {
-    width: 30px;  /* Consistent size */
-    height: 30px;
-    margin: 0 10px; /* Space between icons */
+    .social-icon {
+        height: 24px;
+        margin: 0 9px;
+        width: 24px;
     }
 }
 
-/* Show nav when active */
 .nav-links.active {
     display: flex;
 }
 
-/* Hide hamburger menu on larger screens */
-@media (min-width: 768px) {
+@media (min-width: 901px) {
     .menu-toggle {
         display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 0 18px;
+    }
+
+    .brand-name {
+        font-size: 1rem;
+    }
+
+    .logo-img {
+        height: 36px;
+        margin-right: 9px;
+    }
+
+    .hero {
+        padding: 78px 18px 72px;
+    }
+
+    .hero h1 {
+        font-size: 2.55rem;
+    }
+
+    .hero h2 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+    }
+
+    .services-content,
+    .about-content,
+    .contact-content {
+        padding: 36px 0 52px;
+    }
+
+    .purchase-button,
+    .academy-button {
+        max-width: 100%;
+        white-space: normal;
     }
 }
