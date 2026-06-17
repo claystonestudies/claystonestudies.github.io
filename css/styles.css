@@ -15,6 +15,8 @@
     --accent-dark: #273224;
     --accent-soft: #edf1e9;
     --veil: rgba(251, 250, 247, 0.78);
+    --glass: rgba(255, 255, 255, 0.48);
+    --glass-strong: rgba(255, 255, 255, 0.68);
 }
 
 body {
@@ -313,16 +315,54 @@ footer a:hover {
     padding-bottom: 16px;
 }
 
-.services-content p,
 .about-content p,
 .contact-content p {
     color: var(--soft-ink);
+}
+
+.services-content p {
+    color: var(--soft-ink);
+}
+
+.services-content p:not(:first-of-type) {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(135deg, var(--glass-strong), rgba(251, 250, 247, 0.44)),
+        rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(222, 216, 203, 0.74);
+    border-radius: 7px;
+    box-shadow:
+        0 18px 42px rgba(36, 36, 31, 0.045),
+        inset 0 1px 0 rgba(255, 255, 255, 0.72);
+    margin-bottom: 26px;
+    padding: 22px 24px 24px;
+}
+
+.services-content p:first-of-type {
+    font-size: 1.01rem;
+    margin-bottom: 28px;
+}
+
+.services-content p:not(:first-of-type) br {
+    content: "";
+    display: block;
+    margin: 7px 0;
+}
+
+.services-content p:not(:first-of-type) a:not(.purchase-button) {
+    color: var(--accent-dark);
+    text-decoration-color: rgba(79, 98, 73, 0.28);
 }
 
 .services-content b,
 .about-content b,
 .contact-content b {
     color: var(--ink);
+}
+
+.services-content b {
+    font-weight: 700;
 }
 
 .founder-portrait {
@@ -345,25 +385,33 @@ footer a:hover {
 }
 
 .purchase-button {
-    background: var(--accent-dark);
-    border: 1px solid var(--accent-dark);
-    border-radius: 3px;
-    color: #ffffff;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.34);
+    border: 1px solid rgba(39, 50, 36, 0.58);
+    border-radius: 5px;
+    box-shadow:
+        0 10px 24px rgba(36, 36, 31, 0.04),
+        inset 0 1px 0 rgba(255, 255, 255, 0.68);
+    color: var(--accent-dark);
     display: inline-block;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    margin-top: 8px;
-    padding: 8px 12px;
+    margin-top: 10px;
+    padding: 9px 14px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .purchase-button:hover {
-    background: var(--accent);
-    border-color: var(--accent);
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+    box-shadow:
+        0 14px 28px rgba(36, 36, 31, 0.09),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
     color: #ffffff;
     transform: translateY(-1px);
 }

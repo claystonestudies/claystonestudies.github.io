@@ -143,9 +143,17 @@
         padding: 36px 0 52px;
     }
 
+    .services-content p:not(:first-of-type) {
+        border-radius: 6px;
+        margin-bottom: 20px;
+        padding: 18px;
+    }
+
     .purchase-button,
     .academy-button {
         max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
         white-space: normal;
     }
 }
