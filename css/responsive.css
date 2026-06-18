@@ -63,11 +63,7 @@
     }
 
     .courses-hero {
-        padding: 64px 0 34px;
-    }
-
-    .courses-hero h1 {
-        font-size: 2.25rem;
+        padding: 36px 0 20px;
     }
 
     .course-overview-grid,
@@ -156,6 +152,14 @@
         font-size: 1.45rem;
     }
 
+    .services-content h2,
+    .about-content h2:first-of-type,
+    .contact-content h2,
+    .services-redesign-hero h1,
+    .courses-hero h1 {
+        font-size: 1.95rem;
+    }
+
     .services-content,
     .about-content,
     .contact-content {
@@ -178,11 +182,7 @@
     }
 
     .services-redesign-hero {
-        padding: 48px 0 30px;
-    }
-
-    .services-redesign-hero h1 {
-        font-size: 2rem;
+        padding: 36px 0 20px;
     }
 
     .service-card-grid,
