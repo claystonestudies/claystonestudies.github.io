@@ -303,7 +303,7 @@ footer a:hover {
 .services-content,
 .about-content,
 .contact-content {
-    padding: 46px 0 64px;
+    padding: 40px 0 64px;
 }
 
 .services-content .container,
@@ -312,23 +312,11 @@ footer a:hover {
     max-width: 820px;
 }
 
-.services-content h2,
-.about-content h2:first-of-type,
-.contact-content h2,
-.services-redesign-hero h1,
-.courses-hero h1 {
-    border-bottom: 1px solid var(--line);
-    font-size: 2.25rem;
-    margin-bottom: 18px;
-    padding-bottom: 16px;
-    text-align: center;
-}
-
-.about-content h2:not(:first-of-type) {
+.about-content h2 {
     border-bottom: 0;
     color: var(--accent-dark);
     font-size: 1.55rem;
-    margin: 30px 0 14px;
+    margin: 0 0 14px;
     padding-bottom: 0;
 }
 
@@ -337,18 +325,12 @@ footer a:hover {
     color: var(--soft-ink);
 }
 
-.about-content > .container > p:first-of-type {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 760px;
-    text-align: center;
-}
-
 .services-content p {
     color: var(--soft-ink);
 }
 
-.services-content p:not(:first-of-type) {
+.services-content p:not(:first-of-type),
+.testimonials-content p {
     -webkit-backdrop-filter: blur(14px);
     backdrop-filter: blur(14px);
     background:
@@ -366,10 +348,6 @@ footer a:hover {
 .services-content p:first-of-type {
     font-size: 1.01rem;
     margin-bottom: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 760px;
-    text-align: center;
 }
 
 .services-content p:not(:first-of-type) br {
@@ -397,29 +375,33 @@ footer a:hover {
     max-width: 1040px;
 }
 
-.services-redesign-hero {
-    padding: 46px 0 20px;
-}
-
-.services-redesign-hero .container {
-    max-width: 1080px;
-}
-
-.services-redesign-hero h1 {
-    color: var(--ink);
-}
-
-.services-redesign-hero p:last-child {
-    color: var(--soft-ink);
-    font-size: 1.01rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 760px;
+.page-header {
+    background:
+        linear-gradient(120deg, rgba(223, 229, 216, 0.92), rgba(251, 250, 247, 0.96) 56%, rgba(237, 241, 233, 0.9));
+    border-bottom: 1px solid var(--line);
+    padding: 34px 20px;
     text-align: center;
 }
 
+.page-header .container {
+    max-width: 940px;
+}
+
+.page-header h1 {
+    color: var(--ink);
+    font-size: 2.25rem;
+    margin-bottom: 12px;
+}
+
+.page-header p {
+    color: var(--soft-ink);
+    font-size: 1.01rem;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
 .services-card-section {
-    padding: 20px 0 66px;
+    padding: 40px 0 66px;
 }
 
 .services-card-section .container {
@@ -633,15 +615,7 @@ footer a:hover {
     margin-bottom: 0;
 }
 
-.testimonials-content .testimonial-privacy-note {
-    color: var(--soft-ink);
-    font-size: 0.96rem;
-    line-height: 1.6;
-    margin-bottom: 24px;
-    max-width: 680px;
-}
-
-.testimonials-content p:not(.testimonial-privacy-note) {
+.testimonials-content p {
     -webkit-backdrop-filter: blur(14px);
     backdrop-filter: blur(14px);
     background:
@@ -897,15 +871,6 @@ footer a:hover {
     margin-bottom: 0;
 }
 
-.courses-hero {
-    padding: 46px 0 20px;
-    text-align: center;
-}
-
-.courses-hero .container {
-    max-width: 940px;
-}
-
 .courses-kicker,
 .course-label {
     color: var(--accent);
@@ -916,22 +881,6 @@ footer a:hover {
     text-transform: uppercase;
 }
 
-.courses-hero h1 {
-    color: var(--ink);
-}
-
-.courses-hero p {
-    color: var(--soft-ink);
-    font-size: 1.01rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-}
-
-.courses-hero p:last-child {
-    margin-bottom: 0;
-}
-
 .courses-overview,
 .course-detail,
 .course-choice {
@@ -939,7 +888,7 @@ footer a:hover {
 }
 
 .courses-overview {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .course-overview-grid {
