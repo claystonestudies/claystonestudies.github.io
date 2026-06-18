@@ -59,11 +59,11 @@
     }
 
     .writing-academy-hero {
-        padding: 64px 0;
+        padding: 64px 0 34px;
     }
 
     .courses-hero {
-        padding: 64px 0;
+        padding: 64px 0 34px;
     }
 
     .courses-hero h1 {
@@ -175,6 +175,24 @@
     .product-grid {
         grid-template-columns: 1fr;
         gap: 16px;
+    }
+
+    .services-redesign-hero {
+        padding: 48px 0 30px;
+    }
+
+    .services-redesign-hero h1 {
+        font-size: 2rem;
+    }
+
+    .service-card-grid,
+    .service-card-body {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card,
+    .service-card-featured {
+        padding: 20px;
     }
 
     .product-card {
