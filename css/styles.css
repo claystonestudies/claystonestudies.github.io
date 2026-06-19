@@ -325,6 +325,62 @@ footer a:hover {
     color: var(--soft-ink);
 }
 
+.contact-content {
+    flex: 1;
+}
+
+.contact-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.76), rgba(251, 250, 247, 0.5)),
+        rgba(237, 241, 233, 0.24);
+    border: 1px solid rgba(160, 153, 132, 0.36);
+    border-radius: 7px;
+    box-shadow:
+        0 12px 28px rgba(36, 36, 31, 0.038),
+        inset 0 1px 0 rgba(255, 255, 255, 0.72);
+    margin: 0 auto;
+    max-width: 500px;
+    overflow: hidden;
+    padding: 26px 30px 28px;
+    position: relative;
+    text-align: center;
+}
+
+.contact-card::before {
+    background: rgba(39, 50, 36, 0.62);
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.contact-name {
+    color: var(--ink);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: 6px;
+}
+
+.contact-email {
+    color: var(--soft-ink);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.contact-email:hover {
+    color: var(--accent-dark);
+    text-decoration: none;
+}
+
 .services-content p {
     color: var(--soft-ink);
 }
@@ -800,31 +856,19 @@ footer a:hover {
 }
 
 .writing-academy-hero h1 {
-    color: var(--accent);
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.86rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    line-height: 1.45;
-    margin-bottom: 18px;
-    text-transform: uppercase;
+    color: var(--accent-dark);
+    font-size: 2.25rem;
+    line-height: 1.14;
+    margin-bottom: 26px;
 }
 
-.writing-academy-hero p {
+.academy-description {
     color: var(--soft-ink);
     font-size: 1.14rem;
     line-height: 1.72;
     margin-left: auto;
     margin-right: auto;
     max-width: 720px;
-}
-
-.writing-academy-hero .academy-title {
-    color: var(--accent-dark);
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 3.05rem;
-    line-height: 1.14;
-    margin-bottom: 24px;
 }
 
 .academy-button {
