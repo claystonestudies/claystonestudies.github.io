@@ -59,7 +59,11 @@
     }
 
     .writing-academy-hero {
-        padding: 64px 0 34px;
+        padding: 70px 0 56px;
+    }
+
+    .academy-hero-panel {
+        padding: 42px 28px 40px;
     }
 
     .course-overview-grid,
@@ -74,15 +78,15 @@
     }
 
     .writing-academy-hero h1 {
-        font-size: 2rem;
+        font-size: 0.76rem;
+    }
+
+    .writing-academy-hero .academy-title {
+        font-size: 2.2rem;
     }
 
     .writing-academy-hero p {
         font-size: 1rem;
-    }
-
-    .academy-card {
-        padding: 22px;
     }
 
     .founder-portrait {
