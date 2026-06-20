@@ -185,6 +185,19 @@
         gap: 16px;
     }
 
+    .service-principles {
+        padding: 26px 0 4px;
+    }
+
+    .service-principles-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .principle-card {
+        padding: 20px;
+    }
+
     .service-card-grid,
     .service-card-body {
         grid-template-columns: 1fr;

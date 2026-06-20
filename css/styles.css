@@ -325,6 +325,23 @@ footer a:hover {
     color: var(--soft-ink);
 }
 
+.about-video-link {
+    border-top: 1px solid rgba(222, 216, 203, 0.74);
+    display: inline-block;
+    margin-top: 8px;
+    padding-top: 14px;
+}
+
+.about-video-link a {
+    color: var(--accent-dark);
+    text-decoration-color: rgba(79, 98, 73, 0.28);
+    text-underline-offset: 3px;
+}
+
+.about-video-link a:hover {
+    color: var(--ink);
+}
+
 .contact-content {
     flex: 1;
 }
@@ -458,6 +475,77 @@ footer a:hover {
 
 .services-card-section {
     padding: 40px 0 66px;
+}
+
+.service-principles {
+    padding: 34px 0 8px;
+}
+
+.service-principles .container {
+    max-width: 1080px;
+}
+
+.service-principles-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.principle-card {
+    --principle-accent: var(--accent-dark);
+    --principle-tint: rgba(237, 241, 233, 0.58);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(251, 250, 247, 0.58)),
+        var(--principle-tint);
+    border: 1px solid color-mix(in srgb, var(--principle-accent) 28%, var(--line));
+    border-radius: 8px;
+    box-shadow:
+        0 16px 36px rgba(36, 36, 31, 0.045),
+        inset 0 1px 0 rgba(255, 255, 255, 0.78);
+    min-height: 100%;
+    overflow: hidden;
+    padding: 24px 24px 26px;
+    position: relative;
+}
+
+.principle-card::before {
+    background: linear-gradient(90deg, var(--principle-accent), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.principle-card h2 {
+    color: var(--ink);
+    font-size: 1.34rem;
+    margin-bottom: 12px;
+}
+
+.principle-card p {
+    color: var(--soft-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.02rem;
+    line-height: 1.62;
+    margin-bottom: 0;
+}
+
+.principle-spirituality {
+    --principle-accent: #745f33;
+    --principle-tint: rgba(246, 240, 225, 0.72);
+}
+
+.principle-philosophy {
+    --principle-accent: #584676;
+    --principle-tint: rgba(239, 235, 246, 0.66);
+}
+
+.principle-astrology {
+    --principle-accent: #38583d;
+    --principle-tint: rgba(232, 241, 231, 0.72);
 }
 
 .services-card-section .container {
