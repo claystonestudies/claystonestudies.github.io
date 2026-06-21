@@ -136,12 +136,18 @@
         padding: 78px 18px 72px;
     }
 
+    .hero::before {
+        width: calc(100% - 44px);
+    }
+
     .hero h1 {
-        font-size: 2.55rem;
+        font-size: 2.28rem;
+        max-width: min(100%, 15ch);
     }
 
     .hero h2 {
         font-size: 1rem;
+        max-width: min(100%, 23ch);
     }
 
     h2 {

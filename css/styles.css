@@ -198,7 +198,10 @@ header {
 
 .hero h1 {
     font-size: 3.45rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 18px;
+    max-width: 820px;
     position: relative;
 }
 
@@ -207,7 +210,10 @@ header {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.12rem;
     font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
+    max-width: 680px;
     position: relative;
 }
 
