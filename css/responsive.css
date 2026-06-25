@@ -204,14 +204,33 @@
         padding: 20px;
     }
 
-    .service-card-grid,
+    .astrology-service-grid,
+    .service-card-horizontal,
     .service-card-body {
         grid-template-columns: 1fr;
     }
 
     .service-card,
-    .service-card-featured {
+    .service-card-featured,
+    .service-category-panel {
         padding: 20px;
+    }
+
+    .service-card-horizontal .service-card-topline,
+    .service-card-horizontal h3,
+    .service-card-horizontal .service-subtitle,
+    .service-card-horizontal p:not(.service-price),
+    .service-card-horizontal .service-price,
+    .service-card-horizontal .purchase-button {
+        grid-column: 1;
+    }
+
+    .service-card-horizontal .service-price,
+    .service-card-horizontal .purchase-button {
+        grid-row: auto;
+        justify-self: start;
+        margin-left: 0;
+        min-width: 0;
     }
 
     .product-card {
