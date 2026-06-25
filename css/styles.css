@@ -551,7 +551,7 @@ footer a:hover {
 .principle-card h2 {
     color: var(--ink);
     font-size: 1.34rem;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
 .principle-card p {
@@ -627,6 +627,15 @@ footer a:hover {
     color: var(--service-accent);
     font-size: 1.82rem;
     margin-bottom: 0;
+}
+
+.service-category-intro {
+    color: var(--soft-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.04rem;
+    line-height: 1.62;
+    margin: -4px 0 22px;
+    max-width: 720px;
 }
 
 .service-category-astrology,
