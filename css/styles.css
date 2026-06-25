@@ -630,12 +630,28 @@ footer a:hover {
 }
 
 .service-category-intro {
-    color: var(--soft-ink);
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.62), rgba(251, 250, 247, 0.34)),
+        color-mix(in srgb, var(--service-accent) 9%, transparent);
+    border: 1px solid color-mix(in srgb, var(--service-accent) 20%, var(--line));
+    border-left: 4px solid color-mix(in srgb, var(--service-accent) 70%, var(--line));
+    border-radius: 7px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.74);
+    color: color-mix(in srgb, var(--soft-ink) 86%, var(--service-accent));
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.04rem;
-    line-height: 1.62;
-    margin: -4px 0 22px;
-    max-width: 720px;
+    line-height: 1.66;
+    margin: -2px 0 22px;
+    padding: 18px 20px;
+    width: 100%;
+}
+
+.service-category-intro p {
+    margin-bottom: 12px;
+}
+
+.service-category-intro p:last-child {
+    margin-bottom: 0;
 }
 
 .service-category-astrology,
