@@ -1167,6 +1167,18 @@ footer a:hover {
     margin: 0;
 }
 
+.course-card-fit {
+    border-top: 1px solid rgba(36, 36, 31, 0.14);
+    font-size: 0.96rem;
+    line-height: 1.62;
+    margin-bottom: 18px;
+    padding-top: 16px;
+}
+
+.course-card-fit strong {
+    color: var(--ink);
+}
+
 .course-overview-card .purchase-button {
     align-self: flex-start;
     margin-top: auto;
@@ -1267,9 +1279,12 @@ footer a:hover {
 }
 
 .refund-note {
-    border-top: 1px solid var(--line);
+    border-top: 1px solid rgba(36, 36, 31, 0.14);
     font-size: 0.95rem;
+    margin: 26px auto 0;
+    max-width: 740px;
     padding-top: 18px;
+    text-align: center;
 }
 
 .book-cover {
