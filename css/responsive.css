@@ -204,10 +204,38 @@
         padding: 20px;
     }
 
-    .astrology-service-grid,
+    .life-coaching-service-layout,
+    .astrology-service-layout,
+    .astrology-testimonial-grid,
     .service-card-horizontal,
     .service-card-body {
         grid-template-columns: 1fr;
+    }
+
+    .life-coaching-copy {
+        border-right: 0;
+        border-bottom: 1px solid rgba(36, 36, 31, 0.14);
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .astrology-shared-copy {
+        border-right: 0;
+        border-bottom: 1px solid rgba(36, 36, 31, 0.14);
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .astrology-testimonials blockquote,
+    .astrology-testimonials blockquote:first-child {
+        border-left: 0;
+        border-top: 1px solid rgba(36, 36, 31, 0.12);
+        padding: 14px 0 0;
+    }
+
+    .astrology-testimonials blockquote:first-child {
+        border-top: 0;
+        padding-top: 0;
     }
 
     .service-card,

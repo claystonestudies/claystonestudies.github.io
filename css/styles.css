@@ -498,7 +498,7 @@ footer a:hover {
 .service-principles-grid {
     display: grid;
     gap: 18px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .principle-card {
@@ -516,7 +516,7 @@ footer a:hover {
     display: block;
     min-height: 100%;
     overflow: hidden;
-    padding: 24px 24px 26px;
+    padding: 22px 20px 24px;
     position: relative;
     text-decoration: none;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
@@ -550,7 +550,7 @@ footer a:hover {
 
 .principle-card h2 {
     color: var(--ink);
-    font-size: 1.34rem;
+    font-size: 1.24rem;
     margin-bottom: 0;
 }
 
@@ -560,6 +560,11 @@ footer a:hover {
     font-size: 1.02rem;
     line-height: 1.62;
     margin-bottom: 0;
+}
+
+.principle-life-coaching {
+    --principle-accent: #4f645f;
+    --principle-tint: rgba(232, 240, 237, 0.72);
 }
 
 .principle-spirituality {
@@ -654,8 +659,14 @@ footer a:hover {
     margin-bottom: 0;
 }
 
-.service-category-astrology,
-.service-astrology-pdf {
+.service-category-life-coaching,
+.service-life-coaching {
+    --service-accent: #4f645f;
+    --service-accent-soft: rgba(79, 100, 95, 0.15);
+    --service-tint: rgba(232, 240, 237, 0.74);
+}
+
+.service-category-astrology {
     --service-accent: #38583d;
     --service-accent-soft: rgba(56, 88, 61, 0.14);
     --service-tint: rgba(232, 241, 231, 0.74);
@@ -673,12 +684,6 @@ footer a:hover {
     --service-accent: #584676;
     --service-accent-soft: rgba(88, 70, 118, 0.14);
     --service-tint: rgba(239, 235, 246, 0.68);
-}
-
-.astrology-service-grid {
-    display: grid;
-    gap: 18px;
-    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
 }
 
 .service-card {
@@ -713,10 +718,18 @@ footer a:hover {
     top: 0;
 }
 
-.service-astrology-session {
+.service-astrology-overview {
     --service-accent: #38583d;
     --service-accent-soft: rgba(56, 88, 61, 0.14);
     --service-tint: rgba(232, 241, 231, 0.74);
+    padding: 28px;
+}
+
+.service-life-coaching-overview {
+    --service-accent: #4f645f;
+    --service-accent-soft: rgba(79, 100, 95, 0.15);
+    --service-tint: rgba(232, 240, 237, 0.74);
+    padding: 28px;
 }
 
 .service-card-featured {
@@ -765,11 +778,6 @@ footer a:hover {
     grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
 }
 
-.astrology-service-grid .service-card-body {
-    gap: 18px;
-    grid-template-columns: 1fr;
-}
-
 .service-card-topline {
     align-items: center;
     display: flex;
@@ -811,7 +819,9 @@ footer a:hover {
 }
 
 .service-card h2,
-.service-card h3 {
+.service-card h3,
+.astrology-purchase-option h4,
+.life-coaching-purchase-option h4 {
     color: var(--ink);
     font-size: 1.38rem;
     font-family: Georgia, "Times New Roman", serif;
@@ -822,6 +832,110 @@ footer a:hover {
 
 .service-card-featured h2 {
     font-size: 1.7rem;
+}
+
+.life-coaching-service-layout {
+    align-items: start;
+    display: grid;
+    gap: 28px;
+    grid-template-columns: minmax(0, 1.28fr) minmax(290px, 0.72fr);
+}
+
+.life-coaching-copy {
+    border-right: 1px solid rgba(36, 36, 31, 0.14);
+    padding-right: 28px;
+}
+
+.life-coaching-copy p:last-child {
+    margin-bottom: 0;
+}
+
+.life-coaching-purchase-panel {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.74), rgba(251, 250, 247, 0.46)),
+        rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--service-accent-soft);
+    border-radius: 7px;
+    display: grid;
+    gap: 12px;
+    padding: 14px;
+}
+
+.life-coaching-purchase-option {
+    background: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(79, 100, 95, 0.12);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.life-coaching-package-option {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.66), rgba(232, 240, 237, 0.28)),
+        rgba(255, 255, 255, 0.52);
+    border-color: rgba(79, 100, 95, 0.22);
+}
+
+.life-coaching-purchase-option h4 {
+    font-size: 1.16rem;
+}
+
+.life-coaching-purchase-option .service-subtitle {
+    margin-bottom: 12px;
+}
+
+.astrology-service-layout {
+    align-items: start;
+    display: grid;
+    gap: 28px;
+    grid-template-columns: minmax(0, 1.28fr) minmax(280px, 0.72fr);
+}
+
+.astrology-shared-copy {
+    border-right: 1px solid rgba(36, 36, 31, 0.14);
+    padding-right: 28px;
+}
+
+.astrology-shared-copy h3 {
+    font-size: 1.72rem;
+    margin-bottom: 12px;
+}
+
+.astrology-shared-copy p {
+    color: color-mix(in srgb, var(--soft-ink) 88%, var(--service-accent));
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.08rem;
+    line-height: 1.72;
+    margin-bottom: 0;
+}
+
+.astrology-purchase-panel {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.74), rgba(251, 250, 247, 0.46)),
+        rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--service-accent-soft);
+    border-radius: 7px;
+    display: grid;
+    gap: 12px;
+    padding: 14px;
+}
+
+.astrology-purchase-option {
+    background: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(56, 88, 61, 0.12);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.astrology-purchase-option h4 {
+    font-size: 1.16rem;
+}
+
+.astrology-purchase-option .service-subtitle {
+    margin-bottom: 12px;
 }
 
 .service-card p {
@@ -846,6 +960,23 @@ footer a:hover {
     margin-bottom: 8px;
     margin-top: 0;
     padding-top: 10px;
+}
+
+.astrology-purchase-option .service-price {
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 9px;
+}
+
+.life-coaching-purchase-option .service-price {
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 9px;
+}
+
+.astrology-purchase-option .purchase-button,
+.life-coaching-purchase-option .purchase-button {
+    align-self: stretch;
 }
 
 .service-card .purchase-button {
@@ -875,6 +1006,33 @@ footer a:hover {
     padding: 20px;
 }
 
+.astrology-testimonials {
+    box-shadow: none;
+    margin-top: 24px;
+}
+
+.astrology-testimonials-header {
+    align-items: center;
+    border-bottom: 1px solid rgba(36, 36, 31, 0.12);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+}
+
+.astrology-testimonials-header .testimonial-heading,
+.astrology-testimonials-header .service-text-link {
+    margin-bottom: 0;
+}
+
+.astrology-testimonial-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .testimonial-heading {
     color: var(--service-accent);
     font-size: 0.78rem;
@@ -888,6 +1046,17 @@ footer a:hover {
     border-top: 1px solid rgba(36, 36, 31, 0.12);
     margin: 0;
     padding: 14px 0;
+}
+
+.astrology-testimonials blockquote {
+    border-left: 1px solid rgba(36, 36, 31, 0.12);
+    border-top: 0;
+    padding: 0 0 0 18px;
+}
+
+.astrology-testimonials blockquote:first-child {
+    border-left: 0;
+    padding-left: 0;
 }
 
 .testimonial-panel blockquote:first-of-type {
