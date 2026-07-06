@@ -172,6 +172,34 @@
         padding: 36px 0 52px;
     }
 
+    .about-content .container {
+        gap: 20px;
+    }
+
+    .about-panel {
+        padding: 26px 22px;
+    }
+
+    .about-studies-intro {
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    .about-studies-logo {
+        height: 78px;
+        padding: 9px;
+        width: 78px;
+    }
+
+    .about-robert-body {
+        gap: 18px;
+        grid-template-columns: 96px minmax(0, 1fr);
+    }
+
+    .about-portrait {
+        width: 96px;
+    }
+
     .services-content p:not(:first-of-type) {
         border-radius: 6px;
         margin-bottom: 20px;
@@ -293,5 +321,21 @@
         padding-left: 12px;
         padding-right: 12px;
         white-space: normal;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-studies-intro {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-robert-body {
+        grid-template-columns: 1fr;
+    }
+
+    .about-portrait {
+        width: 112px;
     }
 }
