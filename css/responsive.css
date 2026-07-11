@@ -85,6 +85,10 @@
         font-size: 1rem;
     }
 
+    .client-experiences-invitation {
+        padding: 18px 20px;
+    }
+
     .founder-portrait {
         display: block;
         float: left;

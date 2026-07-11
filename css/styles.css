@@ -483,6 +483,19 @@ footer a:hover {
     color: var(--soft-ink);
 }
 
+.page-header-link {
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 16px 0 0;
+    text-transform: uppercase;
+}
+
+.page-header-link a {
+    color: var(--accent-dark);
+    text-decoration-color: rgba(79, 98, 73, 0.3);
+}
+
 .services-content p:not(:first-of-type),
 .testimonials-content p {
     -webkit-backdrop-filter: blur(14px);
@@ -1069,6 +1082,59 @@ footer a:hover {
     text-transform: uppercase;
 }
 
+.client-experiences-invitation {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.66), rgba(251, 250, 247, 0.42)),
+        rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(222, 216, 203, 0.78);
+    border-radius: 7px;
+    box-shadow:
+        0 18px 38px rgba(36, 36, 31, 0.065),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    align-items: center;
+    color: var(--accent-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 100%;
+    margin: 26px auto 0;
+    padding: 24px 30px 26px;
+    text-align: center;
+    width: min(100%, 360px);
+}
+
+.client-experiences-invitation p {
+    color: var(--soft-ink);
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.client-experiences-invitation-link {
+    background: rgba(237, 241, 233, 0.86);
+    border: 1px solid rgba(79, 98, 73, 0.34);
+    border-radius: 999px;
+    color: var(--accent-dark);
+    display: inline-flex;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    padding: 8px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.client-experiences-invitation-link:hover,
+.client-experiences-invitation-link:focus-visible {
+    background: rgba(79, 98, 73, 0.14);
+    border-color: rgba(79, 98, 73, 0.52);
+    box-shadow: 0 6px 14px rgba(36, 36, 31, 0.08);
+    color: var(--accent-dark);
+}
+
 .testimonial-panel {
     background: rgba(255, 255, 255, 0.68);
     border: 1px solid var(--service-accent-soft);
@@ -1161,6 +1227,95 @@ footer a:hover {
     font-size: 1rem;
     margin-bottom: 26px;
     padding: 22px 24px 24px;
+}
+
+.client-experiences-content {
+    padding: 34px 0 70px;
+}
+
+.experience-section {
+    margin-top: 42px;
+    scroll-margin-top: 96px;
+}
+
+.experience-section:first-child {
+    margin-top: 0;
+}
+
+.experience-section-heading {
+    align-items: center;
+    border-bottom: 1px solid rgba(36, 36, 31, 0.12);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+}
+
+.experience-section-heading .testimonial-heading {
+    margin-bottom: 0;
+}
+
+.experience-section-heading .experience-service-link {
+    margin-top: 0;
+}
+
+.experience-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(135deg, var(--glass-strong), rgba(251, 250, 247, 0.44)),
+        rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(222, 216, 203, 0.74);
+    border-radius: 7px;
+    box-shadow:
+        0 22px 46px rgba(36, 36, 31, 0.09),
+        0 5px 14px rgba(36, 36, 31, 0.045),
+        inset 0 1px 0 rgba(255, 255, 255, 0.82);
+    margin-bottom: 18px;
+    padding: 28px 30px 24px;
+}
+
+.experience-card blockquote {
+    margin: 0;
+}
+
+.experience-card blockquote p {
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.02rem;
+    line-height: 1.58;
+    margin-bottom: 16px;
+}
+
+.experience-card blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.experience-service-link {
+    align-items: center;
+    background: rgba(237, 241, 233, 0.86);
+    border: 1px solid rgba(79, 98, 73, 0.34);
+    border-radius: 999px;
+    color: var(--accent-dark);
+    display: inline-flex;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 8px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.experience-service-link:hover,
+.experience-service-link:focus-visible {
+    background: rgba(79, 98, 73, 0.14);
+    border-color: rgba(79, 98, 73, 0.52);
+    box-shadow: 0 6px 14px rgba(36, 36, 31, 0.08);
+    color: var(--accent-dark);
 }
 
 .products-content > .container > p:first-of-type {
