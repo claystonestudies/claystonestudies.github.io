@@ -568,7 +568,7 @@ footer a:hover {
 }
 
 .services-card-section {
-    padding: 40px 0 66px;
+    padding: 30px 0 66px;
 }
 
 .service-principles {
@@ -1100,11 +1100,11 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    margin: 26px auto 0;
-    min-height: 118px;
-    padding: 28px 32px;
+    margin: 18px auto 0;
+    min-height: 92px;
+    padding: 20px 28px;
     text-align: center;
-    width: min(100%, 390px);
+    width: min(100%, 370px);
 }
 
 .client-experiences-invitation-link {
