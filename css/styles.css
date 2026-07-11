@@ -1083,53 +1083,63 @@ footer a:hover {
 }
 
 .client-experiences-invitation {
-    -webkit-backdrop-filter: blur(14px);
-    backdrop-filter: blur(14px);
-    background:
-        linear-gradient(135deg, rgba(255, 255, 255, 0.74), rgba(245, 248, 243, 0.5)),
-        rgba(255, 255, 255, 0.24);
-    border: 1px solid rgba(222, 216, 203, 0.78);
-    border-radius: 7px;
-    box-shadow:
-        0 20px 42px rgba(36, 36, 31, 0.07),
-        0 1px 2px rgba(36, 36, 31, 0.04),
-        inset 0 1px 0 rgba(255, 255, 255, 0.88);
     align-items: center;
     color: var(--accent-dark);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     max-width: 100%;
     margin: 18px auto 0;
-    min-height: 92px;
-    padding: 20px 28px;
+    padding: 0;
     text-align: center;
-    width: min(100%, 370px);
+    width: min(100%, 360px);
 }
 
 .client-experiences-invitation-link {
-    background: rgba(237, 241, 233, 0.86);
-    border: 1px solid rgba(79, 98, 73, 0.34);
-    border-radius: 999px;
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(251, 250, 247, 0.58)),
+        rgba(237, 241, 233, 0.58);
+    border: 1px solid color-mix(in srgb, var(--accent-dark) 26%, var(--line));
+    border-radius: 8px;
+    box-shadow:
+        0 16px 36px rgba(36, 36, 31, 0.052),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     color: var(--accent-dark);
     justify-content: center;
     display: inline-flex;
-    font-size: 0.74rem;
+    font-size: 0.82rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     line-height: 1;
-    min-width: 190px;
-    padding: 10px 18px;
+    overflow: hidden;
+    padding: 18px 28px;
+    position: relative;
     text-decoration: none;
     text-transform: uppercase;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.client-experiences-invitation-link::before {
+    background: linear-gradient(90deg, var(--accent-dark), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .client-experiences-invitation-link:hover,
 .client-experiences-invitation-link:focus-visible {
-    background: rgba(79, 98, 73, 0.14);
-    border-color: rgba(79, 98, 73, 0.52);
-    box-shadow: 0 6px 14px rgba(36, 36, 31, 0.08);
+    border-color: color-mix(in srgb, var(--accent-dark) 44%, var(--line));
+    box-shadow:
+        0 20px 42px rgba(36, 36, 31, 0.074),
+        inset 0 1px 0 rgba(255, 255, 255, 0.86);
     color: var(--accent-dark);
+    transform: translateY(-2px);
 }
 
 .testimonial-panel {

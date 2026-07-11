@@ -86,7 +86,11 @@
     }
 
     .client-experiences-invitation {
-        padding: 18px 20px;
+        width: 100%;
+    }
+
+    .client-experiences-invitation-link {
+        padding: 16px 20px;
     }
 
     .founder-portrait {
