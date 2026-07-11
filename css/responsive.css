@@ -68,8 +68,16 @@
 
     .course-overview-grid,
     .course-section-body,
-    .choice-grid {
+    .choice-grid,
+    .experience-card {
         grid-template-columns: 1fr;
+    }
+
+    .experience-service {
+        border-bottom: 1px solid rgba(36, 36, 31, 0.12);
+        border-right: 0;
+        padding-bottom: 14px;
+        padding-right: 0;
     }
 
     .course-section,
