@@ -358,7 +358,7 @@ footer a:hover {
     border-bottom: 0;
     color: var(--accent-dark);
     font-size: 1.55rem;
-    margin: 0 0 14px;
+    margin: 0;
     padding-bottom: 0;
 }
 
@@ -367,34 +367,38 @@ footer a:hover {
     color: var(--soft-ink);
 }
 
-.about-studies-intro {
-    align-items: center;
-    display: flex;
-    gap: 26px;
-    padding-top: 4px;
+.about-studies-copy,
+.about-robert-copy {
+    margin: 0 auto;
+    max-width: 700px;
 }
 
-.about-studies-logo {
-    background: rgba(255, 255, 255, 0.64);
-    border: 1px solid rgba(222, 216, 203, 0.82);
-    border-radius: 50%;
-    box-shadow: 0 14px 32px rgba(36, 36, 31, 0.06);
-    flex: 0 0 auto;
-    height: 104px;
-    padding: 12px;
-    width: 104px;
+.about-studies-copy {
+    display: grid;
+    gap: 14px;
 }
 
-.about-studies-intro p {
+.about-studies-copy p,
+.about-robert-copy p {
     font-size: 1.02rem;
     margin-bottom: 0;
 }
 
-.about-robert-body {
-    align-items: flex-start;
-    display: grid;
-    gap: 24px;
-    grid-template-columns: 150px minmax(0, 1fr);
+.about-claystone-panel h2,
+.about-robert-panel h2 {
+    margin: 2px auto 18px;
+    max-width: 700px;
+    text-align: left;
+}
+
+.about-robert-copy p + p {
+    margin-top: 14px;
+}
+
+.about-robert-copy::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 
 .about-portrait {
@@ -402,14 +406,17 @@ footer a:hover {
     border-radius: 6px;
     box-shadow: 0 12px 26px rgba(36, 36, 31, 0.07);
     display: block;
+    float: left;
     height: auto;
-    width: 150px;
+    margin: 5px 22px 10px 0;
+    width: 132px;
 }
 
 .about-video-link {
     border-top: 1px solid rgba(222, 216, 203, 0.74);
     display: inline-block;
-    margin-top: 8px;
+    justify-self: start;
+    margin-top: 2px;
     padding-top: 14px;
 }
 
@@ -552,6 +559,20 @@ footer a:hover {
 
 .page-header .container {
     max-width: 940px;
+}
+
+.page-header-logo {
+    background: rgba(255, 255, 255, 0.54);
+    border: 1px solid rgba(222, 216, 203, 0.88);
+    border-radius: 50%;
+    box-shadow:
+        0 12px 30px rgba(36, 36, 31, 0.055),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    display: block;
+    height: 74px;
+    margin: 0 auto 16px;
+    padding: 9px;
+    width: 74px;
 }
 
 .page-header h1 {

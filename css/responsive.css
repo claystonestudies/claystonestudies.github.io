@@ -170,6 +170,13 @@
         font-size: 1.95rem;
     }
 
+    .page-header-logo {
+        height: 64px;
+        margin-bottom: 14px;
+        padding: 8px;
+        width: 64px;
+    }
+
     .writing-academy-hero h1 {
         font-size: 1.95rem;
     }
@@ -188,24 +195,9 @@
         padding: 26px 22px;
     }
 
-    .about-studies-intro {
-        align-items: flex-start;
-        gap: 18px;
-    }
-
-    .about-studies-logo {
-        height: 78px;
-        padding: 9px;
-        width: 78px;
-    }
-
-    .about-robert-body {
-        gap: 18px;
-        grid-template-columns: 96px minmax(0, 1fr);
-    }
-
     .about-portrait {
-        width: 96px;
+        margin: 4px 18px 8px 0;
+        width: 116px;
     }
 
     .services-content p:not(:first-of-type) {
@@ -333,17 +325,9 @@
 }
 
 @media (max-width: 420px) {
-    .about-studies-intro {
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .about-robert-body {
-        grid-template-columns: 1fr;
-    }
-
     .about-portrait {
-        width: 112px;
+        float: none;
+        margin: 0 0 16px;
+        width: 108px;
     }
 }
