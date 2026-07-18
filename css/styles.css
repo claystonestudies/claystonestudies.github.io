@@ -373,11 +373,6 @@ footer a:hover {
     max-width: 700px;
 }
 
-.about-studies-copy {
-    display: grid;
-    gap: 14px;
-}
-
 .about-studies-copy p,
 .about-robert-copy p {
     font-size: 1.02rem;
@@ -391,25 +386,40 @@ footer a:hover {
     text-align: left;
 }
 
+.about-studies-copy p + p,
 .about-robert-copy p + p {
     margin-top: 14px;
 }
 
+.about-studies-copy::after,
 .about-robert-copy::after {
     clear: both;
     content: "";
     display: block;
 }
 
+.about-studies-logo,
 .about-portrait {
     border: 1px solid rgba(160, 153, 132, 0.36);
-    border-radius: 6px;
     box-shadow: 0 12px 26px rgba(36, 36, 31, 0.07);
     display: block;
     float: left;
     height: auto;
     margin: 5px 22px 10px 0;
     width: 132px;
+}
+
+.about-studies-logo {
+    background: rgba(255, 255, 255, 0.62);
+    border-color: rgba(222, 216, 203, 0.82);
+    border-radius: 50%;
+    margin: 5px 18px 8px 0;
+    padding: 9px;
+    width: 104px;
+}
+
+.about-portrait {
+    border-radius: 6px;
 }
 
 .about-video-link {
@@ -553,26 +563,12 @@ footer a:hover {
     background:
         linear-gradient(120deg, rgba(223, 229, 216, 0.92), rgba(251, 250, 247, 0.96) 56%, rgba(237, 241, 233, 0.9));
     border-bottom: 1px solid var(--line);
-    padding: 34px 20px;
+    padding: 26px 20px 28px;
     text-align: center;
 }
 
 .page-header .container {
     max-width: 940px;
-}
-
-.page-header-logo {
-    background: rgba(255, 255, 255, 0.54);
-    border: 1px solid rgba(222, 216, 203, 0.88);
-    border-radius: 50%;
-    box-shadow:
-        0 12px 30px rgba(36, 36, 31, 0.055),
-        inset 0 1px 0 rgba(255, 255, 255, 0.9);
-    display: block;
-    height: 74px;
-    margin: 0 auto 16px;
-    padding: 9px;
-    width: 74px;
 }
 
 .page-header h1 {

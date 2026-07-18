@@ -163,18 +163,11 @@
     }
 
     .page-header {
-        padding: 28px 18px;
+        padding: 22px 18px 24px;
     }
 
     .page-header h1 {
         font-size: 1.95rem;
-    }
-
-    .page-header-logo {
-        height: 64px;
-        margin-bottom: 14px;
-        padding: 8px;
-        width: 64px;
     }
 
     .writing-academy-hero h1 {
@@ -198,6 +191,11 @@
     .about-portrait {
         margin: 4px 18px 8px 0;
         width: 116px;
+    }
+
+    .about-studies-logo {
+        margin: 4px 16px 7px 0;
+        width: 88px;
     }
 
     .services-content p:not(:first-of-type) {
@@ -329,5 +327,11 @@
         float: none;
         margin: 0 0 16px;
         width: 108px;
+    }
+
+    .about-studies-logo {
+        float: none;
+        margin: 0 0 14px;
+        width: 82px;
     }
 }
