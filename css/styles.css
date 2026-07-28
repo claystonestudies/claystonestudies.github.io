@@ -1008,6 +1008,10 @@ footer a:hover {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.08rem;
     line-height: 1.72;
+    margin-bottom: 18px;
+}
+
+.astrology-shared-copy p:last-child {
     margin-bottom: 0;
 }
 
@@ -1165,6 +1169,62 @@ footer a:hover {
     transform: translateY(-2px);
 }
 
+.astrology-approach-invitation {
+    align-items: center;
+    background:
+        linear-gradient(110deg, rgba(56, 88, 61, 0.09), rgba(255, 255, 255, 0.76) 44%, rgba(56, 88, 61, 0.06)),
+        rgba(255, 255, 255, 0.54);
+    border: 1px solid color-mix(in srgb, var(--service-accent) 24%, var(--line));
+    border-radius: 7px;
+    display: grid;
+    gap: 18px 28px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    margin-top: 24px;
+    padding: 20px 22px;
+}
+
+.astrology-approach-invitation p {
+    color: color-mix(in srgb, var(--soft-ink) 84%, var(--service-accent));
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.04rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.astrology-approach-button {
+    align-items: center;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(232, 241, 231, 0.66)),
+        var(--service-tint);
+    border: 1px solid color-mix(in srgb, #38583d 44%, var(--line));
+    border-radius: 7px;
+    box-shadow:
+        0 12px 28px rgba(36, 36, 31, 0.055),
+        inset 0 1px 0 rgba(255, 255, 255, 0.86);
+    color: #38583d;
+    display: inline-flex;
+    font-size: 0.78rem;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 0.075em;
+    line-height: 1.2;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.astrology-approach-button:hover,
+.astrology-approach-button:focus-visible {
+    border-color: #38583d;
+    box-shadow:
+        0 16px 34px rgba(36, 36, 31, 0.085),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #2d4832;
+    transform: translateY(-2px);
+}
+
 .testimonial-panel {
     background: rgba(255, 255, 255, 0.68);
     border: 1px solid var(--service-accent-soft);
@@ -1257,6 +1317,118 @@ footer a:hover {
     font-size: 1rem;
     margin-bottom: 26px;
     padding: 22px 24px 24px;
+}
+
+/* Astrology approach essay */
+.astrology-approach-page {
+    background:
+        radial-gradient(circle at 18% 8%, rgba(56, 88, 61, 0.08), transparent 28rem),
+        linear-gradient(180deg, rgba(237, 241, 233, 0.42), rgba(251, 250, 247, 0) 34rem);
+}
+
+.astrology-approach-hero {
+    border-bottom: 1px solid color-mix(in srgb, #38583d 18%, var(--line));
+    padding: 76px 0 62px;
+    text-align: center;
+}
+
+.astrology-approach-hero .container,
+.astrology-approach-content .container {
+    max-width: 900px;
+}
+
+.astrology-approach-eyebrow {
+    color: #38583d;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.astrology-approach-hero h1 {
+    color: var(--ink);
+    font-size: clamp(2.3rem, 5vw, 3.65rem);
+    line-height: 1.08;
+    margin-bottom: 15px;
+}
+
+.astrology-approach-author {
+    color: var(--soft-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    letter-spacing: 0.025em;
+    margin-bottom: 0;
+}
+
+.astrology-approach-content {
+    padding: 56px 0 72px;
+}
+
+.astrology-approach-essay {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(251, 250, 247, 0.68)),
+        rgba(232, 241, 231, 0.46);
+    border: 1px solid color-mix(in srgb, #38583d 24%, var(--line));
+    border-radius: 9px;
+    box-shadow:
+        0 24px 60px rgba(36, 36, 31, 0.07),
+        inset 0 1px 0 rgba(255, 255, 255, 0.84);
+    padding: clamp(30px, 6vw, 62px);
+    position: relative;
+}
+
+.astrology-approach-essay::before {
+    background: #38583d;
+    border-radius: 9px 9px 0 0;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.astrology-approach-essay p {
+    color: color-mix(in srgb, var(--soft-ink) 90%, #38583d);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.08rem;
+    line-height: 1.83;
+    margin-bottom: 1.45em;
+}
+
+.astrology-approach-essay p:last-child {
+    margin-bottom: 0;
+}
+
+.astrology-approach-essay .astrology-approach-lead {
+    border-bottom: 1px solid rgba(36, 36, 31, 0.13);
+    color: var(--ink);
+    font-size: 1.25rem;
+    line-height: 1.65;
+    margin-bottom: 1.6em;
+    padding-bottom: 1.35em;
+}
+
+.astrology-approach-return {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.62);
+    border: 1px solid color-mix(in srgb, #38583d 20%, var(--line));
+    border-radius: 8px;
+    display: flex;
+    gap: 20px 28px;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 20px 22px;
+}
+
+.astrology-approach-return p {
+    color: var(--soft-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+    margin-bottom: 0;
 }
 
 .client-experiences-content {

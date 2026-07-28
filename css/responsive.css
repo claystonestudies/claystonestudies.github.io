@@ -238,6 +238,15 @@
         grid-template-columns: 1fr;
     }
 
+    .astrology-approach-invitation {
+        align-items: start;
+        grid-template-columns: 1fr;
+    }
+
+    .astrology-approach-invitation .astrology-approach-button {
+        justify-self: start;
+    }
+
     .life-coaching-copy {
         border-right: 0;
         border-bottom: 1px solid rgba(36, 36, 31, 0.14);
@@ -285,6 +294,19 @@
         justify-self: start;
         margin-left: 0;
         min-width: 0;
+    }
+
+    .astrology-approach-hero {
+        padding: 54px 0 46px;
+    }
+
+    .astrology-approach-content {
+        padding: 36px 0 52px;
+    }
+
+    .astrology-approach-return {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .product-card {
