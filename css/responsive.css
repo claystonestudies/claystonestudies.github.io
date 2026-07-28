@@ -239,12 +239,11 @@
     }
 
     .astrology-approach-invitation {
-        align-items: start;
-        grid-template-columns: 1fr;
+        align-items: stretch;
     }
 
     .astrology-approach-invitation .astrology-approach-button {
-        justify-self: start;
+        justify-self: stretch;
     }
 
     .life-coaching-copy {
@@ -305,8 +304,7 @@
     }
 
     .astrology-approach-return {
-        align-items: flex-start;
-        flex-direction: column;
+        align-items: center;
     }
 
     .product-card {
