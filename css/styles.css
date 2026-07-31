@@ -1274,12 +1274,14 @@ footer a:hover {
     padding: 20px;
 }
 
-.astrology-testimonials {
+.astrology-testimonials,
+.life-coaching-testimonials {
     box-shadow: none;
     margin-top: 24px;
 }
 
-.astrology-testimonials-header {
+.astrology-testimonials-header,
+.life-coaching-testimonials-header {
     align-items: center;
     border-bottom: 1px solid rgba(36, 36, 31, 0.12);
     display: flex;
@@ -1291,7 +1293,9 @@ footer a:hover {
 }
 
 .astrology-testimonials-header .testimonial-heading,
-.astrology-testimonials-header .service-text-link {
+.astrology-testimonials-header .service-text-link,
+.life-coaching-testimonials-header .testimonial-heading,
+.life-coaching-testimonials-header .service-text-link {
     margin-bottom: 0;
 }
 
