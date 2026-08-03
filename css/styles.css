@@ -1189,14 +1189,15 @@ footer a:hover {
 .astrology-approach-invitation {
     align-items: stretch;
     background:
-        linear-gradient(145deg, rgba(255, 250, 249, 0.96), rgba(247, 225, 222, 0.78)),
-        rgba(249, 235, 232, 0.9);
-    border: 1px solid rgba(164, 91, 84, 0.42);
+        linear-gradient(145deg, rgba(255, 248, 240, 0.96), rgba(246, 211, 174, 0.84)),
+        rgba(250, 229, 205, 0.9);
+    border: 1px solid rgba(178, 99, 49, 0.52);
     border-radius: 6px;
     box-shadow:
-        0 12px 28px rgba(105, 57, 52, 0.07),
+        0 12px 28px rgba(122, 72, 39, 0.08),
+        inset 0 2px 0 rgba(215, 132, 62, 0.78),
         inset 0 1px 0 rgba(255, 255, 255, 0.88);
-    color: #6d3d38;
+    color: #5c3b29;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -1206,7 +1207,7 @@ footer a:hover {
 }
 
 .astrology-approach-invitation p {
-    color: #65423e;
+    color: #5c3b29;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1rem;
     line-height: 1.48;
@@ -1215,25 +1216,26 @@ footer a:hover {
 
 .astrology-approach-invitation:hover,
 .astrology-approach-invitation:focus-visible {
-    border-color: rgba(137, 63, 56, 0.72);
+    border-color: rgba(166, 84, 35, 0.78);
     box-shadow:
-        0 16px 32px rgba(105, 57, 52, 0.11),
+        0 16px 32px rgba(122, 72, 39, 0.13),
+        inset 0 2px 0 rgba(215, 132, 62, 0.92),
         inset 0 1px 0 rgba(255, 255, 255, 0.92);
-    color: #60322e;
+    color: #4e2f20;
     transform: translateY(-2px);
 }
 
 .astrology-approach-button {
     align-items: center;
     background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(232, 241, 231, 0.66)),
-        var(--service-tint);
-    border: 1px solid color-mix(in srgb, #38583d 44%, var(--line));
+        linear-gradient(145deg, rgba(255, 252, 248, 0.94), rgba(244, 207, 166, 0.78)),
+        rgba(250, 225, 196, 0.86);
+    border: 1px solid rgba(174, 91, 40, 0.68);
     border-radius: 7px;
     box-shadow:
         0 12px 28px rgba(36, 36, 31, 0.055),
         inset 0 1px 0 rgba(255, 255, 255, 0.86);
-    color: #38583d;
+    color: #6b3b21;
     display: inline-flex;
     font-size: 0.78rem;
     font-weight: 700;
@@ -1249,21 +1251,38 @@ footer a:hover {
 
 .astrology-approach-invitation .astrology-approach-button {
     background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(244, 216, 212, 0.62)),
-        rgba(249, 235, 232, 0.72);
-    border-color: rgba(137, 63, 56, 0.48);
-    color: #743f3a;
+        linear-gradient(145deg, rgba(255, 252, 248, 0.92), rgba(242, 194, 139, 0.82)),
+        rgba(249, 218, 181, 0.9);
+    border: 2px solid rgba(174, 91, 40, 0.68);
+    box-shadow:
+        0 8px 20px rgba(122, 72, 39, 0.1),
+        0 0 0 2px rgba(215, 132, 62, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #6b3b21;
     width: 100%;
 }
 
 .astrology-approach-button:hover,
 .astrology-approach-button:focus-visible {
-    border-color: #38583d;
+    border-color: #a65323;
     box-shadow:
-        0 16px 34px rgba(36, 36, 31, 0.085),
+        0 16px 34px rgba(122, 72, 39, 0.12),
         inset 0 1px 0 rgba(255, 255, 255, 0.9);
-    color: #2d4832;
+    color: #572e1c;
     transform: translateY(-2px);
+}
+
+.astrology-approach-invitation:hover .astrology-approach-button,
+.astrology-approach-invitation:focus-visible .astrology-approach-button {
+    background:
+        linear-gradient(145deg, rgba(255, 252, 248, 0.96), rgba(238, 174, 104, 0.88)),
+        rgba(247, 198, 144, 0.94);
+    border-color: #994a21;
+    box-shadow:
+        0 10px 22px rgba(122, 72, 39, 0.14),
+        0 0 0 2px rgba(215, 132, 62, 0.18),
+        inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    color: #512b1b;
 }
 
 .testimonial-panel {
@@ -1274,13 +1293,11 @@ footer a:hover {
     padding: 20px;
 }
 
-.astrology-testimonials,
 .life-coaching-testimonials {
     box-shadow: none;
     margin-top: 24px;
 }
 
-.astrology-testimonials-header,
 .life-coaching-testimonials-header {
     align-items: center;
     border-bottom: 1px solid rgba(36, 36, 31, 0.12);
@@ -1292,17 +1309,9 @@ footer a:hover {
     padding-bottom: 12px;
 }
 
-.astrology-testimonials-header .testimonial-heading,
-.astrology-testimonials-header .service-text-link,
 .life-coaching-testimonials-header .testimonial-heading,
 .life-coaching-testimonials-header .service-text-link {
     margin-bottom: 0;
-}
-
-.astrology-testimonial-grid {
-    display: grid;
-    gap: 18px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .testimonial-heading {
@@ -1318,17 +1327,6 @@ footer a:hover {
     border-top: 1px solid rgba(36, 36, 31, 0.12);
     margin: 0;
     padding: 14px 0;
-}
-
-.astrology-testimonials blockquote {
-    border-left: 1px solid rgba(36, 36, 31, 0.12);
-    border-top: 0;
-    padding: 0 0 0 18px;
-}
-
-.astrology-testimonials blockquote:first-child {
-    border-left: 0;
-    padding-left: 0;
 }
 
 .testimonial-panel blockquote:first-of-type {
@@ -1466,6 +1464,30 @@ footer a:hover {
     justify-content: center;
     margin-top: 24px;
     padding: 20px 22px;
+}
+
+.astrology-approach-return .astrology-approach-button {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(224, 237, 224, 0.82)),
+        rgba(234, 243, 234, 0.9);
+    border: 1px solid rgba(56, 88, 61, 0.54);
+    box-shadow:
+        0 10px 24px rgba(56, 88, 61, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #38583d;
+    width: auto;
+}
+
+.astrology-approach-return .astrology-approach-button:hover,
+.astrology-approach-return .astrology-approach-button:focus-visible {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(207, 227, 209, 0.9)),
+        rgba(222, 238, 224, 0.94);
+    border-color: #38583d;
+    box-shadow:
+        0 14px 28px rgba(56, 88, 61, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    color: #2d4832;
 }
 
 .astrology-approach-return p {
