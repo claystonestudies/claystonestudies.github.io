@@ -1900,6 +1900,7 @@ footer a:hover {
 }
 
 .course-overview-card h2,
+.course-overview-card h3,
 .course-section h2,
 .course-choice h2 {
     color: var(--accent-dark);
