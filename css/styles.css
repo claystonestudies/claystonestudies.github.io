@@ -946,15 +946,11 @@ footer a:hover {
 }
 
 .life-coaching-service-layout {
-    align-items: start;
-    display: grid;
-    gap: 28px;
-    grid-template-columns: minmax(0, 1.28fr) minmax(290px, 0.72fr);
+    display: block;
 }
 
 .life-coaching-copy {
-    border-right: 1px solid rgba(36, 36, 31, 0.14);
-    padding-right: 28px;
+    max-width: 760px;
 }
 
 .life-coaching-copy p:last-child {
@@ -967,18 +963,19 @@ footer a:hover {
         rgba(255, 255, 255, 0.2);
     border: 1px solid var(--service-accent-soft);
     border-radius: 7px;
-    display: grid;
-    gap: 12px;
+    margin-top: 28px;
     padding: 14px;
 }
 
 .life-coaching-purchase-option {
+    align-items: center;
     background: rgba(255, 255, 255, 0.58);
     border: 1px solid rgba(79, 100, 95, 0.12);
     border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 18px 20px;
 }
 
 .life-coaching-package-option {
@@ -994,6 +991,15 @@ footer a:hover {
 
 .life-coaching-purchase-option .service-subtitle {
     margin-bottom: 12px;
+}
+
+.life-coaching-purchase-option .service-price {
+    margin-bottom: 0;
+}
+
+.life-coaching-purchase-option .purchase-button {
+    justify-self: end;
+    white-space: nowrap;
 }
 
 .astrology-service-layout {

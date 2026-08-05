@@ -293,6 +293,16 @@
         grid-template-columns: 1fr;
     }
 
+    .life-coaching-purchase-option {
+        align-items: stretch;
+        grid-template-columns: 1fr;
+    }
+
+    .life-coaching-purchase-option .purchase-button {
+        justify-self: stretch;
+        text-align: center;
+    }
+
     .astrology-approach-invitation {
         align-items: stretch;
     }
@@ -302,10 +312,7 @@
     }
 
     .life-coaching-copy {
-        border-right: 0;
-        border-bottom: 1px solid rgba(36, 36, 31, 0.14);
-        padding-bottom: 20px;
-        padding-right: 0;
+        max-width: none;
     }
 
     .astrology-shared-copy {
