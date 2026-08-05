@@ -22,6 +22,7 @@ FEED_URL = "https://thinkingatcs.substack.com/feed"
 ALLOWED_HOST = "thinkingatcs.substack.com"
 MAX_FEED_BYTES = 2_000_000
 MAX_EXCERPT_LENGTH = 240
+POST_COUNT = 6
 CONTENT_TAG = "{http://purl.org/rss/1.0/modules/content/}encoded"
 
 
@@ -119,11 +120,11 @@ def parse_feed(feed_bytes: bytes) -> dict[str, object]:
                     "url": url,
                 }
             )
-        if len(posts) == 3:
+        if len(posts) == POST_COUNT:
             break
 
-    if len(posts) != 3:
-        raise ValueError(f"Expected three valid posts, found {len(posts)}")
+    if len(posts) != POST_COUNT:
+        raise ValueError(f"Expected {POST_COUNT} valid posts, found {len(posts)}")
 
     return {
         "source": FEED_URL,

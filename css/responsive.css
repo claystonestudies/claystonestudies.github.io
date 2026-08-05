@@ -269,28 +269,9 @@
         padding: 36px 0 52px;
     }
 
-    .substack-hero {
-        padding: 54px 0 48px;
-    }
-
-    .substack-hero h1 {
-        font-size: 2.2rem;
-    }
-
     .substack-content,
     .application-content {
         padding: 34px 0 52px;
-    }
-
-    .substack-section-heading {
-        align-items: start;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .substack-feed-status {
-        max-width: none;
-        text-align: left;
     }
 
     .substack-post-card {
@@ -302,15 +283,16 @@
     }
 
     .application-email-panel {
-        align-items: stretch;
-        grid-template-columns: 1fr;
         padding: 18px;
     }
 
-    .application-email-panel .purchase-button,
-    .copy-email-status,
-    .application-mail-link {
-        grid-column: 1;
+    .application-email-copy {
+        flex-direction: column;
+    }
+
+    .copy-email-button {
+        min-height: 45px;
+        width: 100%;
     }
 
     .resources-introduction {

@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const postsContainer = document.getElementById("substack-posts");
     if (postsContainer) {
-        const status = document.getElementById("substack-feed-status");
         const allowedHost = "thinkingatcs.substack.com";
 
         fetch("data/substack-posts.json", { cache: "no-store" })
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.json();
             })
             .then(function (feed) {
-                if (!feed || !Array.isArray(feed.posts) || feed.posts.length !== 3) {
+                if (!feed || !Array.isArray(feed.posts) || feed.posts.length !== 6) {
                     throw new Error("Feed snapshot had an unexpected format.");
                 }
 
@@ -64,14 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
                 postsContainer.replaceChildren(fragment);
-                if (status) {
-                    status.textContent = "The latest three posts, refreshed daily from the public feed.";
-                }
             })
             .catch(function () {
-                if (status) {
-                    status.textContent = "Showing the checked-in selection. Visit Substack for the newest posts.";
-                }
+                // Keep the checked-in cards visible if the generated snapshot is unavailable.
             });
     }
 
@@ -87,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 copyEmailStatus.textContent = "Email address copied.";
                 copyEmailButton.textContent = "Copied";
                 window.setTimeout(function () {
-                    copyEmailButton.textContent = "Copy email address";
+                    copyEmailButton.textContent = "Copy Email";
                 }, 2200);
             }
 
@@ -95,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 applicationEmail.focus();
                 applicationEmail.select();
                 applicationEmail.setSelectionRange(0, email.length);
-                copyEmailStatus.textContent = "The address is selected. Copy it with your keyboard, or use the email link below.";
+                copyEmailStatus.textContent = "The address is selected. Copy it with your keyboard.";
             }
 
             if (navigator.clipboard && window.isSecureContext) {
