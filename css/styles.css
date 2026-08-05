@@ -2019,8 +2019,8 @@ footer a:hover {
 .resource-collection {
     align-items: stretch;
     display: grid;
-    gap: 20px;
-    grid-template-columns: minmax(0, 1.75fr) minmax(240px, 0.75fr);
+    gap: 24px;
+    grid-template-columns: 1fr;
 }
 
 .product-card {
@@ -2061,10 +2061,17 @@ footer a:hover {
 
 .product-card-book {
     align-items: center;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(237, 241, 233, 0.5)),
+        var(--paper);
+    border-color: rgba(79, 98, 73, 0.28);
+    box-shadow:
+        0 20px 46px rgba(36, 36, 31, 0.065),
+        inset 0 1px 0 rgba(255, 255, 255, 0.84);
     display: grid;
-    gap: 28px;
-    grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.2fr);
-    padding: 30px;
+    gap: 42px;
+    grid-template-columns: minmax(230px, 0.82fr) minmax(0, 1.18fr);
+    padding: 36px 42px;
 }
 
 .product-card-copy {
@@ -2073,25 +2080,21 @@ footer a:hover {
     flex-direction: column;
 }
 
+.product-card-book h3 {
+    font-size: 1.52rem;
+    line-height: 1.28;
+}
+
 .product-book-cover {
     align-self: center;
     border: 1px solid rgba(79, 98, 73, 0.18);
     box-shadow: 0 12px 24px rgba(36, 36, 31, 0.07);
     display: block;
     height: auto;
-    max-height: 390px;
-    max-width: 250px;
+    max-height: 440px;
+    max-width: 285px;
     object-fit: contain;
     width: 100%;
-}
-
-.product-card-newsletter {
-    background:
-        linear-gradient(150deg, rgba(237, 241, 233, 0.9), rgba(255, 255, 255, 0.62)),
-        var(--paper);
-    border-color: rgba(79, 98, 73, 0.3);
-    justify-content: space-between;
-    padding: 30px 26px;
 }
 
 .resource-courses {
@@ -2104,7 +2107,7 @@ footer a:hover {
         0 18px 42px rgba(36, 36, 31, 0.045),
         inset 0 1px 0 rgba(255, 255, 255, 0.74);
     grid-column: 1 / -1;
-    padding: 30px;
+    padding: 32px;
 }
 
 .resource-courses-heading {

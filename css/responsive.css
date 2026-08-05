@@ -406,7 +406,6 @@
         padding: 24px 20px;
     }
 
-    .product-card-newsletter,
     .resource-courses {
         padding: 22px 20px;
     }
@@ -427,9 +426,9 @@
     }
 
     .product-book-cover {
-        max-height: 310px;
-        max-width: 200px;
-        width: 62%;
+        max-height: 335px;
+        max-width: 220px;
+        width: 68%;
     }
 
     .purchase-button,
