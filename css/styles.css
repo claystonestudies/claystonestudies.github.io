@@ -1740,6 +1740,303 @@ footer a:hover {
     color: var(--accent-dark);
 }
 
+/* Substack */
+.substack-hero {
+    background:
+        linear-gradient(125deg, rgba(227, 234, 222, 0.94), rgba(255, 255, 255, 0.7) 52%, rgba(251, 250, 247, 0.98)),
+        var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 76px 0 68px;
+    text-align: center;
+}
+
+.substack-hero .container {
+    max-width: 820px;
+}
+
+.substack-kicker,
+.application-eyebrow {
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.substack-hero h1 {
+    font-size: clamp(2.4rem, 5vw, 3.65rem);
+    margin-bottom: 18px;
+}
+
+.substack-hero > .container > p:not(.substack-kicker) {
+    color: var(--soft-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    line-height: 1.72;
+    margin: 0 auto 24px;
+    max-width: 670px;
+}
+
+.substack-visit-button {
+    margin-top: 0;
+}
+
+.substack-content {
+    padding: 48px 0 70px;
+}
+
+.substack-content .container {
+    max-width: 1060px;
+}
+
+.substack-section-heading {
+    align-items: end;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.substack-section-heading h2,
+.substack-section-heading .substack-kicker {
+    margin-bottom: 0;
+}
+
+.substack-section-heading .substack-kicker {
+    margin-bottom: 7px;
+}
+
+.substack-feed-status {
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin-bottom: 3px;
+    max-width: 310px;
+    text-align: right;
+}
+
+.substack-post-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.substack-post-card {
+    background:
+        linear-gradient(150deg, rgba(255, 255, 255, 0.86), rgba(237, 241, 233, 0.42)),
+        var(--paper);
+    border: 1px solid rgba(79, 98, 73, 0.24);
+    border-radius: 8px;
+    box-shadow:
+        0 16px 38px rgba(36, 36, 31, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.82);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 26px 24px 24px;
+}
+
+.substack-post-card time {
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.substack-post-card h3 {
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.22rem;
+    font-weight: 400;
+    line-height: 1.36;
+    margin-bottom: 15px;
+}
+
+.substack-post-card p {
+    color: var(--soft-ink);
+    font-size: 0.94rem;
+    line-height: 1.62;
+    margin-bottom: 22px;
+}
+
+.substack-post-card a {
+    border-top: 1px solid rgba(79, 98, 73, 0.18);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    margin-top: auto;
+    padding-top: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.substack-post-card a:hover,
+.substack-post-card a:focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.substack-noscript {
+    color: var(--muted);
+    font-size: 0.86rem;
+    margin: 18px 0 0;
+}
+
+/* Life Coaching application */
+.application-page-header .application-eyebrow {
+    margin-bottom: 8px;
+}
+
+.application-content {
+    padding: 34px 0 70px;
+}
+
+.application-content .container {
+    max-width: 850px;
+}
+
+.application-back-link {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.application-card {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(232, 240, 237, 0.48)),
+        var(--paper);
+    border: 1px solid rgba(79, 100, 95, 0.34);
+    border-radius: 8px;
+    box-shadow:
+        0 24px 56px rgba(36, 36, 31, 0.07),
+        inset 0 1px 0 rgba(255, 255, 255, 0.84);
+    overflow: hidden;
+    padding: 34px;
+}
+
+.application-introduction {
+    border-bottom: 1px solid rgba(79, 100, 95, 0.2);
+    margin-bottom: 26px;
+    padding-bottom: 22px;
+}
+
+.application-introduction h2 {
+    margin-bottom: 9px;
+}
+
+.application-introduction p {
+    color: var(--soft-ink);
+    margin-bottom: 0;
+}
+
+.application-questions {
+    counter-reset: application-question;
+    display: grid;
+    gap: 14px;
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.application-questions li {
+    background: rgba(255, 255, 255, 0.62);
+    border: 1px solid rgba(79, 100, 95, 0.2);
+    border-left: 4px solid #4f645f;
+    border-radius: 7px;
+    padding: 18px 20px;
+}
+
+.application-questions span,
+.application-email-label {
+    color: #4f645f;
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.application-questions p {
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.07rem;
+    line-height: 1.55;
+    margin-bottom: 0;
+}
+
+.application-email-panel {
+    align-items: end;
+    background: rgba(232, 240, 237, 0.72);
+    border: 1px solid rgba(79, 100, 95, 0.36);
+    border-radius: 7px;
+    display: grid;
+    gap: 10px 16px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 20px;
+}
+
+.application-email-panel > div {
+    min-width: 0;
+}
+
+.application-email-address {
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(79, 100, 95, 0.34);
+    border-radius: 5px;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.98rem;
+    padding: 9px 11px;
+    width: 100%;
+}
+
+.application-email-panel .purchase-button {
+    cursor: pointer;
+    font-family: inherit;
+    margin: 0;
+    min-height: 46px;
+}
+
+.copy-email-status {
+    color: var(--accent-dark);
+    font-size: 0.82rem;
+    grid-column: 1 / -1;
+    line-height: 1.45;
+    margin: 0;
+    min-height: 1.45em;
+}
+
+.application-mail-link {
+    font-size: 0.82rem;
+    grid-column: 1 / -1;
+    justify-self: start;
+}
+
+.application-scope-note {
+    border-top: 1px solid rgba(79, 100, 95, 0.2);
+    margin-top: 28px;
+    padding-top: 24px;
+}
+
+.application-scope-note h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.application-scope-note p {
+    color: var(--soft-ink);
+    font-size: 0.88rem;
+    line-height: 1.58;
+    margin-bottom: 0;
+}
+
 .products-content {
     padding: 44px 0 66px;
 }

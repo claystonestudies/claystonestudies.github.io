@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application for Life Coaching | Claystone Studies</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Claystone Studies Logo" class="logo-img">
+                </a>
+                <span class="brand-name">Claystone Studies</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="substack.html">Substack</a></li>
+                <li><a href="products.html">Resources</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="writing-academy.html">Writing Academy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header application-page-header">
+            <div class="container">
+                <p class="application-eyebrow">Life Coaching</p>
+                <h1>Application for Life Coaching</h1>
+                <p>A brief inquiry helps Robert understand what you would like to work on before discussing a session.</p>
+            </div>
+        </section>
+
+        <section class="application-content">
+            <div class="container">
+                <a href="services.html#life-coaching-services" class="application-back-link">&#8592; Back to Services</a>
+
+                <article class="application-card">
+                    <div class="application-introduction">
+                        <h2>How to apply</h2>
+                        <p>Please consider the two questions below, then email your responses to Robert. A few clear paragraphs are sufficient.</p>
+                    </div>
+
+                    <ol class="application-questions">
+                        <li>
+                            <span>Question one</span>
+                            <p>What do you hope to accomplish through life coaching with Robert?</p>
+                        </li>
+                        <li>
+                            <span>Question two</span>
+                            <p>What relevant goals, obstacles, or circumstances would you like to discuss?</p>
+                        </li>
+                    </ol>
+
+                    <div class="application-email-panel" aria-labelledby="application-email-heading">
+                        <div>
+                            <p class="application-email-label" id="application-email-heading">Send your responses to</p>
+                            <input id="application-email" class="application-email-address" type="text" value="robert@claystonestudies.com" readonly aria-label="Robert's email address">
+                        </div>
+                        <button type="button" id="copy-application-email" class="purchase-button">Copy email address</button>
+                        <p id="copy-email-status" class="copy-email-status" role="status" aria-live="polite"></p>
+                        <a href="mailto:robert@claystonestudies.com?subject=Life%20Coaching%20Application" class="application-mail-link">Or open your email application</a>
+                    </div>
+
+                    <aside class="application-scope-note" aria-labelledby="application-scope-heading">
+                        <h2 id="application-scope-heading">Scope of service</h2>
+                        <p>Life coaching is a practical service for clarifying goals and considering plans. It is not medical care, mental-health treatment, psychiatric care, crisis support, diagnosis, or treatment. No result is promised.</p>
+                    </aside>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+<p>&copy; <span id="year"></span> Claystone Studies. All Rights
+Reserved.</p>
+</footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
