@@ -968,6 +968,17 @@ footer a:hover {
     color: var(--ink);
 }
 
+.service-card .life-coaching-copy .life-coaching-scope-note {
+    background: rgba(255, 252, 246, 0.74);
+    border: 1px solid rgba(116, 95, 51, 0.28);
+    border-radius: 6px;
+    color: #49463d;
+    font-size: 0.88rem;
+    line-height: 1.58;
+    margin-top: 18px;
+    padding: 13px 15px;
+}
+
 .life-coaching-purchase-panel {
     background: rgba(255, 255, 255, 0.46);
     border: 1px solid var(--service-accent-soft);
