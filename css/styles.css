@@ -687,6 +687,16 @@ footer a:hover {
     max-width: 1080px;
 }
 
+.single-service-section .container {
+    max-width: 940px;
+}
+
+.single-service-section .service-card {
+    box-shadow:
+        0 24px 58px rgba(36, 36, 31, 0.075),
+        inset 0 1px 0 rgba(255, 255, 255, 0.82);
+}
+
 .service-category-stack {
     display: grid;
     gap: 22px;
@@ -1294,6 +1304,7 @@ footer a:hover {
 }
 
 .life-coaching-testimonials {
+    background: rgba(255, 255, 255, 0.46);
     box-shadow: none;
     margin-top: 24px;
 }
@@ -1499,6 +1510,97 @@ footer a:hover {
 
 .client-experiences-content {
     padding: 34px 0 70px;
+}
+
+.client-experiences-content .container {
+    max-width: 940px;
+}
+
+.featured-experience {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(251, 250, 247, 0.56)),
+        rgba(232, 240, 237, 0.56);
+    border: 1px solid rgba(79, 100, 95, 0.3);
+    border-radius: 9px;
+    box-shadow:
+        0 24px 58px rgba(36, 36, 31, 0.07),
+        inset 0 1px 0 rgba(255, 255, 255, 0.84);
+    overflow: hidden;
+    padding: 38px;
+    position: relative;
+}
+
+.featured-experience::before {
+    background: #4f645f;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.featured-experience-heading {
+    border-bottom: 1px solid rgba(36, 36, 31, 0.12);
+    margin: 0 auto 24px;
+    max-width: 720px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.featured-experience-kicker {
+    color: #4f645f;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.featured-experience-heading h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.experience-card-featured {
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 34px 38px 30px;
+    position: relative;
+}
+
+.experience-card-featured::before {
+    color: rgba(79, 100, 95, 0.2);
+    content: "“";
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4.6rem;
+    left: 17px;
+    line-height: 1;
+    position: absolute;
+    top: 13px;
+}
+
+.experience-card-featured blockquote,
+.experience-card-featured .experience-attribution {
+    position: relative;
+}
+
+.experience-attribution {
+    color: var(--accent-dark);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px 0 0;
+    text-align: right;
+}
+
+.featured-experience-action {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.featured-experience-action .experience-service-link {
+    margin-top: 0;
 }
 
 .experience-section {
