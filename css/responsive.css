@@ -72,6 +72,14 @@
         grid-template-columns: 1fr;
     }
 
+    .resource-collection {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-courses {
+        grid-column: auto;
+    }
+
     .course-section,
     .course-choice .container {
         padding: 24px;
@@ -208,12 +216,15 @@
         padding: 26px 22px 28px;
     }
 
-    .products-content > .container > p:first-of-type {
+    .products-content {
+        padding: 36px 0 52px;
+    }
+
+    .resources-introduction {
         margin-bottom: 24px;
     }
 
-    .product-grid {
-        grid-template-columns: 1fr;
+    .resource-collection {
         gap: 16px;
     }
 
@@ -299,6 +310,17 @@
         padding: 20px;
     }
 
+    .product-card-book {
+        gap: 20px;
+        grid-template-columns: 1fr;
+        padding: 24px 20px;
+    }
+
+    .product-card-newsletter,
+    .resource-courses {
+        padding: 22px 20px;
+    }
+
     .course-overview-card,
     .course-section,
     .course-choice .container {
@@ -315,9 +337,9 @@
     }
 
     .product-book-cover {
-        max-height: 260px;
-        max-width: 170px;
-        width: 54%;
+        max-height: 310px;
+        max-width: 200px;
+        width: 62%;
     }
 
     .purchase-button,

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Claystone Studies</title>
+    <title>Resources | Claystone Studies</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
@@ -27,7 +27,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="products.html"class="active">Products</a></li>
+                <li><a href="products.html" class="active">Resources</a></li>
                 <li><a href="writing-academy.html">Writing Academy</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -36,85 +36,95 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>Products</h1>
-            <p>These items are intended to promote understanding.</p>
+            <h1>Resources</h1>
+            <p>Books, courses, and ongoing writing for clearer study and careful thought.</p>
         </div>
     </section>
 
-    <!-- Products Content Section -->
-    <section class="services-content products-content">
+    <!-- Resources Content Section -->
+    <section class="products-content">
         <div class="container">
-            <div class="product-grid">
-                <article class="product-card product-card-book">
+            <div class="resources-introduction">
+                <p class="resources-kicker">The collection</p>
+                <h2>Ways to read, study, and think carefully</h2>
+                <p>Each resource stands on its own. Choose a book for practical study advice, follow the newsletter for occasional essays, or work through a course at your own pace.</p>
+            </div>
+
+            <div class="resource-collection">
+                <article class="product-card product-card-book" id="study-advice-book">
                     <img src="images/bookcover.jpg" alt="Study Advice book cover" class="product-book-cover">
-                    <p>
-                    <b>Book: </b>Study Advice: Improving the Process of Gaining Knowledge
-
-                  <br>This book offers advice to help readers, of many ages, improve their process of studying and gaining knowledge. Discussed are study techniques, studying in the larger context of human life, and related topics.
-
-                    <br><a href="https://www.amazon.com/gp/r.html?C=KQDL2OX4OKL7&K=13GMSYH4OCSQV&M=urn:rtn:msg:20250226143233d11ad55b916847f3904a3edcc1b0p0na&R=3KPJ644D272TR&T=C&U=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1966718004%3Fref_%3Dpe_93986420_774957520&H=CZY4VQAPFEAUAXDZ2LHMYUEWFYEA&ref_=pe_93986420_774957520" target="_blank" class="purchase-button">Amazon</a>
-                    </p>
+                    <div class="product-card-copy">
+                        <p class="resource-type">Book</p>
+                        <h3><i>Study Advice: Improving the Process of Gaining Knowledge</i></h3>
+                        <p>This book offers advice to help readers of many ages improve how they study and gain knowledge. It covers study techniques, the place of study in everyday life, and related topics.</p>
+                        <a href="https://www.amazon.com/gp/r.html?C=KQDL2OX4OKL7&amp;K=13GMSYH4OCSQV&amp;M=urn:rtn:msg:20250226143233d11ad55b916847f3904a3edcc1b0p0na&amp;R=3KPJ644D272TR&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1966718004%3Fref_%3Dpe_93986420_774957520&amp;H=CZY4VQAPFEAUAXDZ2LHMYUEWFYEA&amp;ref_=pe_93986420_774957520" target="_blank" class="purchase-button">View on Amazon</a>
+                    </div>
                 </article>
 
-                <article class="product-card">
-                    <p><b>Newsletter: </b> <i>Thinking at Claystone Studies</i><br>This is a Substack newsletter in which Robert offers his thoughts from time to time about various topics.<br><a href="https://thoughtsfromrobert.substack.com" target="_blank" class="purchase-button">Substack</a>
-                    </p>
+                <article class="product-card product-card-newsletter" id="newsletter">
+                    <div>
+                        <p class="resource-type">Newsletter</p>
+                        <h3><i>Thinking at Claystone Studies</i></h3>
+                        <p>Occasional essays from Robert on learning, knowledge, and other subjects worth considering.</p>
+                    </div>
+                    <a href="https://thoughtsfromrobert.substack.com" target="_blank" class="purchase-button">Read on Substack</a>
                 </article>
+
+                <div class="resource-courses" aria-labelledby="courses-heading">
+                    <div class="resource-courses-heading">
+                        <p class="resources-kicker">Self-paced courses</p>
+                        <h2 id="courses-heading">Careful thinking about reality and life</h2>
+                    </div>
+                    <div class="course-overview-grid">
+                        <article class="course-overview-card course-one">
+                            <span class="course-number">Course 1</span>
+                            <p class="course-label">Reality and knowledge</p>
+                            <h3>Minimalist Wisdom Course</h3>
+                            <p>This 12-video course works through the <i>Minimalist Wisdom Text</i> one proposition at a time. It considers what is real, what we can know, and how ideas about unity and community shape a worldview.</p>
+                            <dl class="course-facts">
+                                <div>
+                                    <dt>Video content</dt>
+                                    <dd>12 videos, about 3.7 hours</dd>
+                                </div>
+                                <div>
+                                    <dt>Included text</dt>
+                                    <dd>1 PDF with 10 propositions</dd>
+                                </div>
+                                <div>
+                                    <dt>Price</dt>
+                                    <dd>$145</dd>
+                                </div>
+                            </dl>
+                            <p class="course-card-fit"><strong>Good fit:</strong> People who want to examine their basic assumptions and build a clearer, more consistent view of reality, knowledge, and life.</p>
+                            <a href="https://claystonestudies.gumroad.com/l/vdaue" target="_blank" class="purchase-button">Gumroad</a>
+                        </article>
+
+                        <article class="course-overview-card course-two">
+                            <span class="course-number">Course 2</span>
+                            <p class="course-label">Worldview and life</p>
+                            <h3>Eight Cosmic Principles Course</h3>
+                            <p>This 10-video course explains eight broad principles for thinking about reality, conduct, and everyday life. It shows how the principles can help organize a worldview and bring different questions into a clearer relationship.</p>
+                            <dl class="course-facts">
+                                <div>
+                                    <dt>Video content</dt>
+                                    <dd>10 videos, about 2.8 hours</dd>
+                                </div>
+                                <div>
+                                    <dt>Included text</dt>
+                                    <dd>1 PDF with the eight principles</dd>
+                                </div>
+                                <div>
+                                    <dt>Price</dt>
+                                    <dd>$125</dd>
+                                </div>
+                            </dl>
+                            <p class="course-card-fit"><strong>Good fit:</strong> People who want a practical framework for comparing ideas, making sense of experience, and thinking through how they live.</p>
+                            <a href="https://claystonestudies.gumroad.com/l/abrni" target="_blank" class="purchase-button">Gumroad</a>
+                        </article>
+                    </div>
+                    <p class="refund-note">If you are not satisfied with either course, a full refund is available within 30 days of purchase by contacting Robert.</p>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section class="courses-overview products-courses">
-        <div class="container">
-            <h2>Courses</h2>
-            <div class="course-overview-grid">
-                <article class="course-overview-card course-one">
-                    <span class="course-number">Course 1</span>
-                    <p class="course-label">Ontology and metaphysics</p>
-                    <h3>Minimalist Wisdom Course</h3>
-                    <p>A careful 12-video study of the <i>Minimalist Wisdom Text</i>, a compact text in ontology and metaphysics composed by Robert Davis. The course moves proposition by proposition through questions of being, necessity, knowledge, unity, and community.</p>
-                    <dl class="course-facts">
-                        <div>
-                            <dt>Video content</dt>
-                            <dd>12 videos, about 3.7 hours</dd>
-                        </div>
-                        <div>
-                            <dt>Included text</dt>
-                            <dd>1 PDF with 10 propositions</dd>
-                        </div>
-                        <div>
-                            <dt>Price</dt>
-                            <dd>$85</dd>
-                        </div>
-                    </dl>
-                    <p class="course-card-fit"><strong>Good fit:</strong> individuals who want a more precise ontological framework for spiritual, philosophical, and life-optimization practices, including clearer ways to think about the source of all things and the structure of reality.</p>
-                    <a href="https://claystonestudies.gumroad.com/l/vdaue" target="_blank" class="purchase-button">Gumroad</a>
-                </article>
-
-                <article class="course-overview-card course-two">
-                    <span class="course-number">Course 2</span>
-                    <p class="course-label">Cosmic principles</p>
-                    <h3>Eight Cosmic Principles Course</h3>
-                    <p>A 10-video course presenting eight cosmic principles for organizing metaphysical, ethical, and contemplative understanding. These principles signify universal patterns, applicable across place and time, for interpreting the structure of reality with greater clarity and breadth.</p>
-                    <dl class="course-facts">
-                        <div>
-                            <dt>Video content</dt>
-                            <dd>10 videos, about 2.8 hours</dd>
-                        </div>
-                        <div>
-                            <dt>Included text</dt>
-                            <dd>1 PDF with the eight principles</dd>
-                        </div>
-                        <div>
-                            <dt>Price</dt>
-                            <dd>$65</dd>
-                        </div>
-                    </dl>
-                    <p class="course-card-fit"><strong>Good fit:</strong> individuals who want a firmer and more universal foundation for understanding reality.</p>
-                    <a href="https://claystonestudies.gumroad.com/l/abrni" target="_blank" class="purchase-button">Gumroad</a>
-                </article>
-            </div>
-            <p class="refund-note">If you not satisfied with either course, a full refund is available within 30 days of purchase by contacting Robert.</p>
         </div>
     </section>
     <!-- Footer Section -->

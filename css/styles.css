@@ -1608,34 +1608,41 @@ footer a:hover {
     color: var(--accent-dark);
 }
 
-.products-content > .container > p:first-of-type {
-    color: var(--soft-ink);
-    margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 620px;
+.products-content {
+    padding: 44px 0 66px;
+}
+
+.resources-introduction {
+    margin: 0 auto 30px;
+    max-width: 720px;
     text-align: center;
 }
 
-.products-content p:not(:first-of-type),
-.products-content .product-card p {
-    background: none;
-    border: 0;
-    box-shadow: none;
-    color: var(--soft-ink);
-    line-height: 1.68;
-    margin: 0;
-    padding: 0;
+.resources-introduction h2 {
+    margin-bottom: 12px;
 }
 
-.product-grid {
+.resources-introduction > p:last-child {
+    color: var(--soft-ink);
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.resources-kicker,
+.resource-type {
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.resource-collection {
+    align-items: stretch;
     display: grid;
     gap: 20px;
-}
-
-.product-grid {
-    align-items: stretch;
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
+    grid-template-columns: minmax(0, 1.75fr) minmax(240px, 0.75fr);
 }
 
 .product-card {
@@ -1655,12 +1662,19 @@ footer a:hover {
     padding: 24px;
 }
 
-.product-card b {
-    color: var(--ink);
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: inherit;
-    font-weight: 700;
-    line-height: inherit;
+.product-card h3 {
+    color: var(--accent-dark);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 13px;
+}
+
+.product-card p:not(.resource-type) {
+    color: var(--soft-ink);
+    line-height: 1.65;
+    margin-bottom: 18px;
 }
 
 .product-card .purchase-button {
@@ -1668,9 +1682,17 @@ footer a:hover {
 }
 
 .product-card-book {
-    gap: 16px;
-    grid-row: span 2;
+    align-items: center;
+    display: grid;
+    gap: 28px;
+    grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.2fr);
     padding: 30px;
+}
+
+.product-card-copy {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-book-cover {
@@ -1679,10 +1701,48 @@ footer a:hover {
     box-shadow: 0 12px 24px rgba(36, 36, 31, 0.07);
     display: block;
     height: auto;
-    max-height: 360px;
-    max-width: 230px;
+    max-height: 390px;
+    max-width: 250px;
     object-fit: contain;
-    width: 54%;
+    width: 100%;
+}
+
+.product-card-newsletter {
+    background:
+        linear-gradient(150deg, rgba(237, 241, 233, 0.9), rgba(255, 255, 255, 0.62)),
+        var(--paper);
+    border-color: rgba(79, 98, 73, 0.3);
+    justify-content: space-between;
+    padding: 30px 26px;
+}
+
+.resource-courses {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.56), rgba(237, 241, 233, 0.3)),
+        rgba(251, 250, 247, 0.62);
+    border: 1px solid rgba(222, 216, 203, 0.78);
+    border-radius: 7px;
+    box-shadow:
+        0 18px 42px rgba(36, 36, 31, 0.045),
+        inset 0 1px 0 rgba(255, 255, 255, 0.74);
+    grid-column: 1 / -1;
+    padding: 30px;
+}
+
+.resource-courses-heading {
+    margin-bottom: 22px;
+    max-width: 650px;
+}
+
+.resource-courses-heading h2 {
+    margin-bottom: 0;
+}
+
+.resource-courses .refund-note {
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 20px 2px 0;
 }
 
 .founder-portrait {
