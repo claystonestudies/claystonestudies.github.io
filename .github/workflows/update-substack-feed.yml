@@ -1,0 +1,42 @@
+name: Update Substack feed
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-substack-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and validate the public feed
+        run: python scripts/update_substack_feed.py
+
+      - name: Commit an updated snapshot
+        run: |
+          if git diff --quiet -- data/substack-posts.json; then
+            echo "The checked-in feed snapshot is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/substack-posts.json
+          git commit -m "Update Substack feed snapshot"
+          git push origin HEAD:main

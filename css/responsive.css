@@ -121,6 +121,10 @@
         grid-template-columns: 1fr;
     }
 
+    .substack-post-grid {
+        grid-template-columns: 1fr;
+    }
+
     .resource-courses {
         grid-column: auto;
     }
@@ -263,6 +267,32 @@
 
     .products-content {
         padding: 36px 0 52px;
+    }
+
+    .substack-content,
+    .application-content {
+        padding: 34px 0 52px;
+    }
+
+    .substack-post-card {
+        padding: 22px 20px;
+    }
+
+    .application-card {
+        padding: 24px 20px;
+    }
+
+    .application-email-panel {
+        padding: 18px;
+    }
+
+    .application-email-copy {
+        flex-direction: column;
+    }
+
+    .copy-email-button {
+        min-height: 45px;
+        width: 100%;
     }
 
     .resources-introduction {
