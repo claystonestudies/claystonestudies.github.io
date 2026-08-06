@@ -121,6 +121,11 @@
         grid-template-columns: 1fr;
     }
 
+    .resource-directory {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+    }
+
     .substack-post-grid {
         grid-template-columns: 1fr;
     }
@@ -303,6 +308,16 @@
         gap: 16px;
     }
 
+    .resource-directory {
+        gap: 9px;
+        margin-bottom: 20px;
+    }
+
+    .resource-directory-link {
+        min-height: 48px;
+        padding: 10px 14px 11px;
+    }
+
     .service-principles {
         padding: 26px 0 4px;
     }
@@ -407,7 +422,7 @@
     }
 
     .resource-courses {
-        padding: 22px 20px;
+        padding: 24px 0 0;
     }
 
     .course-overview-card,
