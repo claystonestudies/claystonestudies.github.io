@@ -2401,6 +2401,20 @@ footer a:hover {
     text-transform: uppercase;
 }
 
+.course-overview-card .course-title-badge {
+    align-self: center;
+    background: var(--course-accent-soft);
+    border: 1px solid color-mix(in srgb, var(--course-accent) 34%, transparent);
+    border-radius: 999px;
+    color: var(--course-accent);
+    display: inline-block;
+    font-size: 1.12rem;
+    line-height: 1.25;
+    margin: 0 0 20px;
+    padding: 9px 15px 10px;
+    text-align: center;
+}
+
 .course-facts {
     border-top: 1px solid rgba(36, 36, 31, 0.16);
     margin: 8px 0 18px;
