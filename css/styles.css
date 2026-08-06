@@ -1770,15 +1770,6 @@ footer a:hover {
     padding: 26px 24px 24px;
 }
 
-.substack-post-card time {
-    color: var(--accent);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    margin-bottom: 14px;
-    text-transform: uppercase;
-}
-
 .substack-post-card h3 {
     color: var(--ink);
     font-family: Georgia, "Times New Roman", serif;

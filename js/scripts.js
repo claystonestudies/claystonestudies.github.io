@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.json();
             })
             .then(function (feed) {
-                if (!feed || !Array.isArray(feed.posts) || feed.posts.length !== 6) {
+                if (!feed || !Array.isArray(feed.posts) || feed.posts.length < 1 || feed.posts.length > 6) {
                     throw new Error("Feed snapshot had an unexpected format.");
                 }
 
@@ -42,10 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     const card = document.createElement("article");
                     card.className = "substack-post-card";
 
-                    const time = document.createElement("time");
-                    time.dateTime = String(post.date);
-                    time.textContent = String(post.date_display);
-
                     const title = document.createElement("h3");
                     title.textContent = String(post.title);
 
@@ -58,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     link.rel = "noopener noreferrer";
                     link.textContent = "Read on Substack ↗";
 
-                    card.append(time, title, excerpt, link);
+                    card.append(title, excerpt, link);
                     fragment.appendChild(card);
                 });
 

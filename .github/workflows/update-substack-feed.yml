@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "17 9 * * *"
   workflow_dispatch:
+    inputs:
+      import_archive:
+        description: Import the complete public archive before updating the featured set
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -16,7 +22,7 @@ jobs:
   update-feed:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Check out the site
         uses: actions/checkout@v4
@@ -26,17 +32,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch and validate the public feed
-        run: python scripts/update_substack_feed.py
+      - name: Update the catalog and featured snapshot
+        env:
+          IMPORT_ARCHIVE: ${{ inputs.import_archive || 'false' }}
+        run: |
+          if [ "$IMPORT_ARCHIVE" = "true" ]; then
+            python scripts/update_substack_feed.py --import-archive
+          else
+            python scripts/update_substack_feed.py
+          fi
 
       - name: Commit an updated snapshot
         run: |
-          if git diff --quiet -- data/substack-posts.json; then
-            echo "The checked-in feed snapshot is already current."
+          if git diff --quiet -- data/substack-catalog.json data/substack-posts.json; then
+            echo "The checked-in Substack data is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/substack-posts.json
-          git commit -m "Update Substack feed snapshot"
+          git add data/substack-catalog.json data/substack-posts.json
+          git commit -m "Update Substack archive snapshot"
           git push origin HEAD:main
