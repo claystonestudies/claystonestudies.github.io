@@ -203,7 +203,7 @@
     }
 
     .hero {
-        padding: 78px 18px 72px;
+        padding: 54px 18px 62px;
     }
 
     .hero::before {
@@ -213,6 +213,16 @@
     .hero h1 {
         font-size: 2.28rem;
         max-width: min(100%, 15ch);
+    }
+
+    .hero-logo {
+        height: 104px;
+        margin-bottom: 15px;
+    }
+
+    .hero h1::before {
+        margin-bottom: 17px;
+        width: min(62vw, 260px);
     }
 
     .hero h2 {
@@ -358,6 +368,20 @@
 
     .life-coaching-copy {
         max-width: none;
+    }
+
+    .life-coaching-title-block {
+        gap: 13px;
+        grid-template-columns: minmax(28px, 1fr) auto minmax(28px, 1fr);
+        margin-bottom: 22px;
+    }
+
+    .service-card-featured .life-coaching-title-block h2 {
+        font-size: 2.15rem;
+    }
+
+    .life-coaching-values ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .astrology-shared-copy {
