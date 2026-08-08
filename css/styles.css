@@ -1013,9 +1013,8 @@ footer a:hover {
 
 .life-coaching-values {
     border-bottom: 1px solid rgba(79, 100, 95, 0.22);
-    border-top: 1px solid rgba(79, 100, 95, 0.22);
-    margin: 20px 0 18px;
-    padding: 17px 0 18px;
+    margin: 0 0 18px;
+    padding: 0 0 18px;
 }
 
 .service-card .life-coaching-copy .life-coaching-values p {
@@ -1048,39 +1047,39 @@ footer a:hover {
 }
 
 .life-coaching-values li:nth-child(1) {
-    background: rgba(247, 242, 229, 0.82);
-    border-color: rgba(154, 128, 72, 0.32);
-    color: #5d5034;
+    background: #e8f2f8;
+    border-color: #a8c5d6;
+    color: #000000;
 }
 
 .life-coaching-values li:nth-child(2) {
-    background: rgba(232, 240, 244, 0.84);
-    border-color: rgba(88, 121, 136, 0.3);
-    color: #405c68;
+    background: #e8f3f2;
+    border-color: #a6c5c0;
+    color: #000000;
 }
 
 .life-coaching-values li:nth-child(3) {
-    background: rgba(240, 236, 246, 0.84);
-    border-color: rgba(112, 91, 137, 0.28);
-    color: #554763;
+    background: #eaf3e8;
+    border-color: #adc6a8;
+    color: #000000;
 }
 
 .life-coaching-values li:nth-child(4) {
-    background: rgba(246, 237, 234, 0.84);
-    border-color: rgba(139, 99, 88, 0.28);
-    color: #644c45;
+    background: #dfeef7;
+    border-color: #96bbd0;
+    color: #000000;
 }
 
 .life-coaching-values li:nth-child(5) {
-    background: rgba(238, 240, 235, 0.88);
-    border-color: rgba(91, 105, 83, 0.28);
-    color: #495442;
+    background: #dff0ed;
+    border-color: #92bcb5;
+    color: #000000;
 }
 
 .life-coaching-values li:nth-child(6) {
-    background: rgba(244, 240, 234, 0.88);
-    border-color: rgba(126, 109, 88, 0.27);
-    color: #5d5143;
+    background: #e2f0df;
+    border-color: #9cbe96;
+    color: #000000;
 }
 
 .life-coaching-purchase-panel {
