@@ -953,27 +953,26 @@ footer a:hover {
 }
 
 .life-coaching-title-block {
-    border-bottom: 1px solid rgba(79, 100, 95, 0.2);
-    margin: 0 0 24px;
-    padding: 2px 0 17px;
+    margin: 0 0 22px;
     text-align: center;
 }
 
-.life-coaching-title-block::after {
-    background: rgba(79, 100, 95, 0.64);
-    border-radius: 999px;
-    content: "";
-    display: block;
-    height: 2px;
-    margin: 11px auto 0;
-    width: 46px;
-}
-
 .service-card-featured .life-coaching-title-block h2 {
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(226, 238, 234, 0.58));
+    border: 1px solid rgba(79, 100, 95, 0.34);
+    border-radius: 999px;
+    box-shadow:
+        0 8px 22px rgba(57, 70, 66, 0.07),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
     color: var(--service-accent);
-    font-size: 2.05rem;
-    letter-spacing: -0.01em;
+    display: inline-block;
+    font-size: 1.68rem;
+    letter-spacing: 0;
     margin: 0;
+    padding: 9px 24px 10px;
     text-align: center;
 }
 

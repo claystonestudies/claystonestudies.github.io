@@ -371,12 +371,12 @@
     }
 
     .life-coaching-title-block {
-        margin-bottom: 20px;
-        padding-bottom: 14px;
+        margin-bottom: 19px;
     }
 
     .service-card-featured .life-coaching-title-block h2 {
-        font-size: 1.82rem;
+        font-size: 1.52rem;
+        padding: 8px 21px 9px;
     }
 
     .life-coaching-values ul {
