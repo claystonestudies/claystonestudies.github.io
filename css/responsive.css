@@ -203,7 +203,7 @@
     }
 
     .hero {
-        padding: 54px 18px 62px;
+        padding: 46px 18px 52px;
     }
 
     .hero::before {
@@ -211,18 +211,18 @@
     }
 
     .hero h1 {
-        font-size: 2.28rem;
+        font-size: 2.2rem;
         max-width: min(100%, 15ch);
     }
 
     .hero-logo {
-        height: 104px;
-        margin-bottom: 15px;
+        height: 88px;
+        margin-bottom: 13px;
     }
 
     .hero h1::before {
-        margin-bottom: 17px;
-        width: min(62vw, 260px);
+        margin-bottom: 15px;
+        width: min(58vw, 230px);
     }
 
     .hero h2 {
@@ -371,13 +371,12 @@
     }
 
     .life-coaching-title-block {
-        gap: 13px;
-        grid-template-columns: minmax(28px, 1fr) auto minmax(28px, 1fr);
-        margin-bottom: 22px;
+        margin-bottom: 20px;
+        padding-bottom: 14px;
     }
 
     .service-card-featured .life-coaching-title-block h2 {
-        font-size: 2.15rem;
+        font-size: 1.82rem;
     }
 
     .life-coaching-values ul {
