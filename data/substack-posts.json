@@ -2,11 +2,19 @@
   "source": "data/substack-catalog.json",
   "selection_method": "sha256 URL ranking within a three-day UTC bucket",
   "selection_bucket": {
-    "index": 6892,
-    "starts_at": "2026-08-11",
-    "ends_at": "2026-08-13"
+    "index": 6893,
+    "starts_at": "2026-08-14",
+    "ends_at": "2026-08-16"
   },
   "posts": [
+    {
+      "title": "Reflections on the Sun",
+      "published_at": "2026-05-12T21:09:26Z",
+      "date": "2026-05-12",
+      "date_display": "May 12, 2026",
+      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
+      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
+    },
     {
       "title": "The Deficiency in the Terminology 'Subject and Object'",
       "published_at": "2026-07-23T12:35:52Z",
@@ -16,28 +24,20 @@
       "url": "https://thinkingatcs.substack.com/p/the-deficiency-in-the-terminology"
     },
     {
-      "title": "Misalignment Between Heart Speech and Verbal Speech",
-      "published_at": "2026-04-08T18:15:53Z",
-      "date": "2026-04-08",
-      "date_display": "April 8, 2026",
-      "excerpt": "Let us consider the premise that telepathy is ordinary communication for human beings. Another way to think of telepathy is energetic heart language, coming from the heart and received by others in t…",
-      "url": "https://thinkingatcs.substack.com/p/misalignment-between-heart-speech"
+      "title": "Human Biology and the Cosmos",
+      "published_at": "2026-06-03T13:52:34Z",
+      "date": "2026-06-03",
+      "date_display": "June 3, 2026",
+      "excerpt": "The biology of a human individual offers insights about how the soul, or the consciousness, of an individual can be correctly aligned with the cosmos. In other words, the individual biology and its f…",
+      "url": "https://thinkingatcs.substack.com/p/human-biology-and-the-cosmos"
     },
     {
-      "title": "A Perspective: Human Intelligence Will Always be Superior to Artificial Intelligence",
-      "published_at": "2026-06-16T22:46:47Z",
-      "date": "2026-06-16",
-      "date_display": "June 16, 2026",
-      "excerpt": "This post will consist in an examination of the nature of artificial intelligence in the particular respect of seeking to determine whether we can find a hard line, or a hard and fast distinction, be…",
-      "url": "https://thinkingatcs.substack.com/p/a-perspective-human-intelligence"
-    },
-    {
-      "title": "Framing Our Intentions as Requests to a Larger, More Fundamental System",
-      "published_at": "2026-08-04T12:55:14Z",
-      "date": "2026-08-04",
-      "date_display": "August 4, 2026",
-      "excerpt": "Greetings. You may notice that the branding of this Substack publication has been modified. The name of this publication is now Thinking at Claystone Studies, and before it was Thoughts from Robert.",
-      "url": "https://thinkingatcs.substack.com/p/requests-to-system"
+      "title": "Haiku: Blue Sky",
+      "published_at": "2026-06-10T12:02:56Z",
+      "date": "2026-06-10",
+      "date_display": "June 10, 2026",
+      "excerpt": "A haiku poem can transmit a potent truth about nature in a short form. One way to understand poetry is that it falls in the category of unusual language. We can divide language into usual and unusual…",
+      "url": "https://thinkingatcs.substack.com/p/haiku-blue-sky"
     },
     {
       "title": "Third-Person, Second-Person, and First-Person Perspectives",
@@ -48,12 +48,12 @@
       "url": "https://thinkingatcs.substack.com/p/third-person-second-person-and-first"
     },
     {
-      "title": "Reflections on the Sun",
-      "published_at": "2026-05-12T21:09:26Z",
-      "date": "2026-05-12",
-      "date_display": "May 12, 2026",
-      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
-      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
+      "title": "The Sun and the One: Objectivity",
+      "published_at": "2026-05-06T21:25:41Z",
+      "date": "2026-05-06",
+      "date_display": "May 6, 2026",
+      "excerpt": "I would like to propose the perspective that it can be helpful to view the Sun as a symbol, in nature, of that first principle of being, which may be called the One, the Singularity, the Source, or t…",
+      "url": "https://thinkingatcs.substack.com/p/the-sun-and-the-one-objectivity"
     }
   ]
 }
