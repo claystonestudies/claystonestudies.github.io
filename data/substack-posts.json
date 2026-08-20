@@ -2,51 +2,11 @@
   "source": "data/substack-catalog.json",
   "selection_method": "sha256 URL ranking within a three-day UTC bucket",
   "selection_bucket": {
-    "index": 6894,
-    "starts_at": "2026-08-17",
-    "ends_at": "2026-08-19"
+    "index": 6895,
+    "starts_at": "2026-08-20",
+    "ends_at": "2026-08-22"
   },
   "posts": [
-    {
-      "title": "Concerning the Immutability of the Universal, Principal Cause of Being",
-      "published_at": "2026-06-23T19:09:48Z",
-      "date": "2026-06-23",
-      "date_display": "June 23, 2026",
-      "excerpt": "In the previous composition, I discussed the view that being must be uncreated. The logical reasoning went as follows. If something exists now, then there must have been something before that origina…",
-      "url": "https://thinkingatcs.substack.com/p/that-the-universal-creative-cause"
-    },
-    {
-      "title": "Misalignment Between Heart Speech and Verbal Speech",
-      "published_at": "2026-04-08T18:15:53Z",
-      "date": "2026-04-08",
-      "date_display": "April 8, 2026",
-      "excerpt": "Let us consider the premise that telepathy is ordinary communication for human beings. Another way to think of telepathy is energetic heart language, coming from the heart and received by others in t…",
-      "url": "https://thinkingatcs.substack.com/p/misalignment-between-heart-speech"
-    },
-    {
-      "title": "Reflections on the Sun",
-      "published_at": "2026-05-12T21:09:26Z",
-      "date": "2026-05-12",
-      "date_display": "May 12, 2026",
-      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
-      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
-    },
-    {
-      "title": "A Perspective on the Nature of Money",
-      "published_at": "2026-04-15T18:17:21Z",
-      "date": "2026-04-15",
-      "date_display": "April 15, 2026",
-      "excerpt": "In this piece, I would like to explore the nature of money. The hypothesis I offer, at present, is the following: Money is a concrete expression of a people’s honest speculation about what is absolute…",
-      "url": "https://thinkingatcs.substack.com/p/a-perspective-on-the-nature-of-money"
-    },
-    {
-      "title": "Human Biology and the Cosmos",
-      "published_at": "2026-06-03T13:52:34Z",
-      "date": "2026-06-03",
-      "date_display": "June 3, 2026",
-      "excerpt": "The biology of a human individual offers insights about how the soul, or the consciousness, of an individual can be correctly aligned with the cosmos. In other words, the individual biology and its f…",
-      "url": "https://thinkingatcs.substack.com/p/human-biology-and-the-cosmos"
-    },
     {
       "title": "The Fluidity of the 'What' and the 'Whence'",
       "published_at": "2026-05-19T20:34:38Z",
@@ -54,6 +14,46 @@
       "date_display": "May 19, 2026",
       "excerpt": "In this composition, I would like to propose the hypothesis that, in general for a substance, the what and the whence, regarding the substance, are fluid with each other. By the term what is meant wh…",
       "url": "https://thinkingatcs.substack.com/p/the-fluidity-of-the-what-and-the"
+    },
+    {
+      "title": "The Teleological End of War is a Genuine Conversation",
+      "published_at": "2026-03-31T18:31:58Z",
+      "date": "2026-03-31",
+      "date_display": "March 31, 2026",
+      "excerpt": "The teleological end of war is a genuine conversation. All of the relevant energy of war, pertaining to the actual interaction between the two parties, is contained, and far surpassed by, the energy …",
+      "url": "https://thinkingatcs.substack.com/p/the-teleological-end-of-war-is-a"
+    },
+    {
+      "title": "The Deficiency in the Terminology 'Subject and Object'",
+      "published_at": "2026-07-23T12:35:52Z",
+      "date": "2026-07-23",
+      "date_display": "July 23, 2026",
+      "excerpt": "In this article, I would like to propose a particular perspective for consideration regarding the nomenclature of ‘subject and object’. Nomenclature, here, means the terminology that is used.",
+      "url": "https://thinkingatcs.substack.com/p/the-deficiency-in-the-terminology"
+    },
+    {
+      "title": "Defined and Undefined Elements in the Individual Psyche",
+      "published_at": "2026-04-29T22:09:58Z",
+      "date": "2026-04-29",
+      "date_display": "April 29, 2026",
+      "excerpt": "In the human psyche, there are defined and undefined elements. One way to move to higher states of being is to convert the undefined elements into elements that are defined. This may also be called t…",
+      "url": "https://thinkingatcs.substack.com/p/defined-and-undefined-elements-in"
+    },
+    {
+      "title": "Haiku: Blue Sky",
+      "published_at": "2026-06-10T12:02:56Z",
+      "date": "2026-06-10",
+      "date_display": "June 10, 2026",
+      "excerpt": "A haiku poem can transmit a potent truth about nature in a short form. One way to understand poetry is that it falls in the category of unusual language. We can divide language into usual and unusual…",
+      "url": "https://thinkingatcs.substack.com/p/haiku-blue-sky"
+    },
+    {
+      "title": "Harmonious Elements in Every Movement",
+      "published_at": "2026-04-21T12:56:37Z",
+      "date": "2026-04-21",
+      "date_display": "April 21, 2026",
+      "excerpt": "In our world, many movements become partially derailed. Thus, the perspective may arise that these movements are complete failures. However, every movement has some positive qualities, and some negat…",
+      "url": "https://thinkingatcs.substack.com/p/golden-elements-in-every-movement"
     }
   ]
 }
