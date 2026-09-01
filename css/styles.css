@@ -439,24 +439,6 @@ footer a:hover {
     border-radius: 6px;
 }
 
-.about-video-link {
-    border-top: 1px solid rgba(222, 216, 203, 0.74);
-    display: inline-block;
-    justify-self: start;
-    margin-top: 2px;
-    padding-top: 14px;
-}
-
-.about-video-link a {
-    color: var(--accent-dark);
-    text-decoration-color: rgba(79, 98, 73, 0.28);
-    text-underline-offset: 3px;
-}
-
-.about-video-link a:hover {
-    color: var(--ink);
-}
-
 .contact-content {
     flex: 1;
 }
