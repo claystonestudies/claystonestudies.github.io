@@ -2,34 +2,34 @@
   "source": "data/substack-catalog.json",
   "selection_method": "sha256 URL ranking within a three-day UTC bucket",
   "selection_bucket": {
-    "index": 6905,
-    "starts_at": "2026-09-19",
-    "ends_at": "2026-09-21"
+    "index": 6906,
+    "starts_at": "2026-09-22",
+    "ends_at": "2026-09-24"
   },
   "posts": [
     {
-      "title": "Framing Our Intentions as Requests to a Larger, More Fundamental System",
-      "published_at": "2026-08-04T12:55:14Z",
-      "date": "2026-08-04",
-      "date_display": "August 4, 2026",
-      "excerpt": "Greetings. You may notice that the branding of this Substack publication has been modified. The name of this publication is now Thinking at Claystone Studies, and before it was Thoughts from Robert.",
-      "url": "https://thinkingatcs.substack.com/p/requests-to-system"
+      "title": "The Deficiency in the Terminology 'Subject and Object'",
+      "published_at": "2026-07-23T12:35:52Z",
+      "date": "2026-07-23",
+      "date_display": "July 23, 2026",
+      "excerpt": "In this article, I would like to propose a particular perspective for consideration regarding the nomenclature of ‘subject and object’. Nomenclature, here, means the terminology that is used.",
+      "url": "https://thinkingatcs.substack.com/p/the-deficiency-in-the-terminology"
     },
     {
-      "title": "Defined and Undefined Elements in the Individual Psyche",
-      "published_at": "2026-04-29T22:09:58Z",
-      "date": "2026-04-29",
-      "date_display": "April 29, 2026",
-      "excerpt": "In the human psyche, there are defined and undefined elements. One way to move to higher states of being is to convert the undefined elements into elements that are defined. This may also be called t…",
-      "url": "https://thinkingatcs.substack.com/p/defined-and-undefined-elements-in"
+      "title": "Human Biology and the Cosmos",
+      "published_at": "2026-06-03T13:52:34Z",
+      "date": "2026-06-03",
+      "date_display": "June 3, 2026",
+      "excerpt": "The biology of a human individual offers insights about how the soul, or the consciousness, of an individual can be correctly aligned with the cosmos. In other words, the individual biology and its f…",
+      "url": "https://thinkingatcs.substack.com/p/human-biology-and-the-cosmos"
     },
     {
-      "title": "A Perspective on the Nature of Money",
-      "published_at": "2026-04-15T18:17:21Z",
-      "date": "2026-04-15",
-      "date_display": "April 15, 2026",
-      "excerpt": "In this piece, I would like to explore the nature of money. The hypothesis I offer, at present, is the following: Money is a concrete expression of a people’s honest speculation about what is absolute…",
-      "url": "https://thinkingatcs.substack.com/p/a-perspective-on-the-nature-of-money"
+      "title": "The Healing Properties of the Wind",
+      "published_at": "2026-03-10T12:20:30Z",
+      "date": "2026-03-10",
+      "date_display": "March 10, 2026",
+      "excerpt": "Have you ever noticed that when you are outside and you feel the wind, it is a healing experience? I believe this may be an underestimated attribute of the wind. We talk about getting fresh air. We t…",
+      "url": "https://thinkingatcs.substack.com/p/the-wind-is-healing"
     },
     {
       "title": "Misalignment Between Heart Speech and Verbal Speech",
@@ -40,20 +40,20 @@
       "url": "https://thinkingatcs.substack.com/p/misalignment-between-heart-speech"
     },
     {
-      "title": "Reflections on the Sun",
-      "published_at": "2026-05-12T21:09:26Z",
-      "date": "2026-05-12",
-      "date_display": "May 12, 2026",
-      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
-      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
+      "title": "The Teleological End of War is a Genuine Conversation",
+      "published_at": "2026-03-31T18:31:58Z",
+      "date": "2026-03-31",
+      "date_display": "March 31, 2026",
+      "excerpt": "The teleological end of war is a genuine conversation. All of the relevant energy of war, pertaining to the actual interaction between the two parties, is contained, and far surpassed by, the energy …",
+      "url": "https://thinkingatcs.substack.com/p/the-teleological-end-of-war-is-a"
     },
     {
-      "title": "The Deficiency in the Terminology 'Subject and Object'",
-      "published_at": "2026-07-23T12:35:52Z",
-      "date": "2026-07-23",
-      "date_display": "July 23, 2026",
-      "excerpt": "In this article, I would like to propose a particular perspective for consideration regarding the nomenclature of ‘subject and object’. Nomenclature, here, means the terminology that is used.",
-      "url": "https://thinkingatcs.substack.com/p/the-deficiency-in-the-terminology"
+      "title": "Harmonious Elements in Every Movement",
+      "published_at": "2026-04-21T12:56:37Z",
+      "date": "2026-04-21",
+      "date_display": "April 21, 2026",
+      "excerpt": "In our world, many movements become partially derailed. Thus, the perspective may arise that these movements are complete failures. However, every movement has some positive qualities, and some negat…",
+      "url": "https://thinkingatcs.substack.com/p/golden-elements-in-every-movement"
     }
   ]
 }
