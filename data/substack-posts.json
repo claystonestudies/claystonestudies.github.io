@@ -2,42 +2,26 @@
   "source": "data/substack-catalog.json",
   "selection_method": "sha256 URL ranking within a three-day UTC bucket",
   "selection_bucket": {
-    "index": 6919,
-    "starts_at": "2026-10-31",
-    "ends_at": "2026-11-02"
+    "index": 6920,
+    "starts_at": "2026-11-03",
+    "ends_at": "2026-11-05"
   },
   "posts": [
     {
-      "title": "Concerning the Immutability of the Universal, Principal Cause of Being",
-      "published_at": "2026-06-23T19:09:48Z",
-      "date": "2026-06-23",
-      "date_display": "June 23, 2026",
-      "excerpt": "In the previous composition, I discussed the view that being must be uncreated. The logical reasoning went as follows. If something exists now, then there must have been something before that origina…",
-      "url": "https://thinkingatcs.substack.com/p/that-the-universal-creative-cause"
+      "title": "A Perspective: Human Intelligence Will Always be Superior to Artificial Intelligence",
+      "published_at": "2026-06-16T22:46:47Z",
+      "date": "2026-06-16",
+      "date_display": "June 16, 2026",
+      "excerpt": "This post will consist in an examination of the nature of artificial intelligence in the particular respect of seeking to determine whether we can find a hard line, or a hard and fast distinction, be…",
+      "url": "https://thinkingatcs.substack.com/p/a-perspective-human-intelligence"
     },
     {
-      "title": "Framing Our Intentions as Requests to a Larger, More Fundamental System",
-      "published_at": "2026-08-04T12:55:14Z",
-      "date": "2026-08-04",
-      "date_display": "August 4, 2026",
-      "excerpt": "Greetings. You may notice that the branding of this Substack publication has been modified. The name of this publication is now Thinking at Claystone Studies, and before it was Thoughts from Robert.",
-      "url": "https://thinkingatcs.substack.com/p/requests-to-system"
-    },
-    {
-      "title": "A Perspective on the Nature of Money",
-      "published_at": "2026-04-15T18:17:21Z",
-      "date": "2026-04-15",
-      "date_display": "April 15, 2026",
-      "excerpt": "In this piece, I would like to explore the nature of money. The hypothesis I offer, at present, is the following: Money is a concrete expression of a people’s honest speculation about what is absolute…",
-      "url": "https://thinkingatcs.substack.com/p/a-perspective-on-the-nature-of-money"
-    },
-    {
-      "title": "Reflections on the Sun",
-      "published_at": "2026-05-12T21:09:26Z",
-      "date": "2026-05-12",
-      "date_display": "May 12, 2026",
-      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
-      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
+      "title": "Human Biology and the Cosmos",
+      "published_at": "2026-06-03T13:52:34Z",
+      "date": "2026-06-03",
+      "date_display": "June 3, 2026",
+      "excerpt": "The biology of a human individual offers insights about how the soul, or the consciousness, of an individual can be correctly aligned with the cosmos. In other words, the individual biology and its f…",
+      "url": "https://thinkingatcs.substack.com/p/human-biology-and-the-cosmos"
     },
     {
       "title": "The Healing Properties of the Wind",
@@ -54,6 +38,22 @@
       "date_display": "June 10, 2026",
       "excerpt": "A haiku poem can transmit a potent truth about nature in a short form. One way to understand poetry is that it falls in the category of unusual language. We can divide language into usual and unusual…",
       "url": "https://thinkingatcs.substack.com/p/haiku-blue-sky"
+    },
+    {
+      "title": "The Sun and the One: Objectivity",
+      "published_at": "2026-05-06T21:25:41Z",
+      "date": "2026-05-06",
+      "date_display": "May 6, 2026",
+      "excerpt": "I would like to propose the perspective that it can be helpful to view the Sun as a symbol, in nature, of that first principle of being, which may be called the One, the Singularity, the Source, or t…",
+      "url": "https://thinkingatcs.substack.com/p/the-sun-and-the-one-objectivity"
+    },
+    {
+      "title": "A Perspective on the Nature of Money",
+      "published_at": "2026-04-15T18:17:21Z",
+      "date": "2026-04-15",
+      "date_display": "April 15, 2026",
+      "excerpt": "In this piece, I would like to explore the nature of money. The hypothesis I offer, at present, is the following: Money is a concrete expression of a people’s honest speculation about what is absolute…",
+      "url": "https://thinkingatcs.substack.com/p/a-perspective-on-the-nature-of-money"
     }
   ]
 }
