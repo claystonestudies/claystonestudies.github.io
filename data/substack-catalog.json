@@ -2,9 +2,33 @@
   "archive_source": "https://thinkingatcs.substack.com/archive",
   "archive_api": "https://thinkingatcs.substack.com/api/v1/archive",
   "rss_source": "https://thinkingatcs.substack.com/feed",
-  "feed_updated_at": "2026-08-06T09:03:13Z",
-  "post_count": 17,
+  "feed_updated_at": "2026-11-16T19:41:14Z",
+  "post_count": 20,
   "posts": [
+    {
+      "title": "Comparative Literature and Historical Time Periods",
+      "published_at": "2026-11-06T18:00:59Z",
+      "date": "2026-11-06",
+      "date_display": "November 6, 2026",
+      "excerpt": "How does comparative literature, or equivalently, the diverse groupings of world literature, differ in various historical time periods? Another way to state this question is: To what extent does the impulse, the intention, to write about a…",
+      "url": "https://thinkingatcs.substack.com/p/comparative-literature-and-historical"
+    },
+    {
+      "title": "Questions Pertaining to the Concept of Relation",
+      "published_at": "2026-11-05T19:28:29Z",
+      "date": "2026-11-05",
+      "date_display": "November 5, 2026",
+      "excerpt": "This article will examine some questions about the concept of relation. The topic of relation is associated with the field of ontology. First, what does it mean for two things to be in relation? Are two things automatically in relation just…",
+      "url": "https://thinkingatcs.substack.com/p/questions-pertaining-to-the-concept"
+    },
+    {
+      "title": "Relations Between History and Science",
+      "published_at": "2026-10-20T13:36:28Z",
+      "date": "2026-10-20",
+      "date_display": "October 20, 2026",
+      "excerpt": "One question to explore is the nature of the relation between science and history. It may be easy to consider either subject in isolation, but considering how either domain affects the other involves complexity. We can begin by briefly…",
+      "url": "https://thinkingatcs.substack.com/p/relations-between-history-and-science"
+    },
     {
       "title": "Framing Our Intentions as Requests to a Larger, More Fundamental System",
       "published_at": "2026-08-04T12:55:14Z",
