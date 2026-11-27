@@ -2,11 +2,27 @@
   "source": "data/substack-catalog.json",
   "selection_method": "sha256 URL ranking within a three-day UTC bucket",
   "selection_bucket": {
-    "index": 6927,
-    "starts_at": "2026-11-24",
-    "ends_at": "2026-11-26"
+    "index": 6928,
+    "starts_at": "2026-11-27",
+    "ends_at": "2026-11-29"
   },
   "posts": [
+    {
+      "title": "Framing Our Intentions as Requests to a Larger, More Fundamental System",
+      "published_at": "2026-08-04T12:55:14Z",
+      "date": "2026-08-04",
+      "date_display": "August 4, 2026",
+      "excerpt": "Greetings. You may notice that the branding of this Substack publication has been modified. The name of this publication is now Thinking at Claystone Studies, and before it was Thoughts from Robert.",
+      "url": "https://thinkingatcs.substack.com/p/requests-to-system"
+    },
+    {
+      "title": "Third-Person, Second-Person, and First-Person Perspectives",
+      "published_at": "2026-03-25T10:01:20Z",
+      "date": "2026-03-25",
+      "date_display": "March 25, 2026",
+      "excerpt": "We can distinguish between the first-person perspective, the second-person perspective, and the third-person perspective in general life, in spirituality, and in language and grammar. These three per…",
+      "url": "https://thinkingatcs.substack.com/p/third-person-second-person-and-first"
+    },
     {
       "title": "A Perspective on the Nature of Money",
       "published_at": "2026-04-15T18:17:21Z",
@@ -16,12 +32,12 @@
       "url": "https://thinkingatcs.substack.com/p/a-perspective-on-the-nature-of-money"
     },
     {
-      "title": "Defined and Undefined Elements in the Individual Psyche",
-      "published_at": "2026-04-29T22:09:58Z",
-      "date": "2026-04-29",
-      "date_display": "April 29, 2026",
-      "excerpt": "In the human psyche, there are defined and undefined elements. One way to move to higher states of being is to convert the undefined elements into elements that are defined. This may also be called t…",
-      "url": "https://thinkingatcs.substack.com/p/defined-and-undefined-elements-in"
+      "title": "Reflections on the Sun",
+      "published_at": "2026-05-12T21:09:26Z",
+      "date": "2026-05-12",
+      "date_display": "May 12, 2026",
+      "excerpt": "In this composition, I will offer some particular perspectives about the Sun, insofar as the Sun subsists as an excellent locus of meditation for a spiritual aspirant who seeks to enter into greater approximation with the first principle of…",
+      "url": "https://thinkingatcs.substack.com/p/sun-meditation-exercise"
     },
     {
       "title": "Misalignment Between Heart Speech and Verbal Speech",
@@ -30,22 +46,6 @@
       "date_display": "April 8, 2026",
       "excerpt": "Let us consider the premise that telepathy is ordinary communication for human beings. Another way to think of telepathy is energetic heart language, coming from the heart and received by others in t…",
       "url": "https://thinkingatcs.substack.com/p/misalignment-between-heart-speech"
-    },
-    {
-      "title": "Comparative Literature and Historical Time Periods",
-      "published_at": "2026-11-06T18:00:59Z",
-      "date": "2026-11-06",
-      "date_display": "November 6, 2026",
-      "excerpt": "How does comparative literature, or equivalently, the diverse groupings of world literature, differ in various historical time periods? Another way to state this question is: To what extent does the impulse, the intention, to write about a…",
-      "url": "https://thinkingatcs.substack.com/p/comparative-literature-and-historical"
-    },
-    {
-      "title": "The Healing Properties of the Wind",
-      "published_at": "2026-03-10T12:20:30Z",
-      "date": "2026-03-10",
-      "date_display": "March 10, 2026",
-      "excerpt": "Have you ever noticed that when you are outside and you feel the wind, it is a healing experience? I believe this may be an underestimated attribute of the wind. We talk about getting fresh air. We t…",
-      "url": "https://thinkingatcs.substack.com/p/the-wind-is-healing"
     },
     {
       "title": "Haiku: Blue Sky",
